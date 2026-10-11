@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://djye8ewig15g4"]
+
+[ext_resource type="PackedScene" uid="uid://bygms17arfitu" path="res://characters/character.tscn" id="1_8671n"]
+[ext_resource type="Texture2D" uid="uid://243g7leky6vo" path="res://assets/3d/characters/Skins/Source/skaterFemaleA.svg" id="2_8671n"]
+[ext_resource type="PackedScene" uid="uid://bcunlgdo8blp6" path="res://assets/3d/characters/characterMedium.fbx" id="2_dcj8u"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_qulg7"]
+vertex_color_use_as_albedo = true
+normal_enabled = true
+normal_texture = ExtResource("2_8671n")
+
+[node name="FemaleSkater" unique_id=562307510 instance=ExtResource("1_8671n")]
+
+[node name="Root_Skeleton3D#characterMedium" parent="." index="0" unique_id=871492010 instance=ExtResource("2_dcj8u")]
+
+[node name="characterMedium" parent="Root_Skeleton3D#characterMedium/Root/Skeleton3D" parent_id_path=PackedInt32Array(871492010, 109498452) index="0" unique_id=1302611086]
+material_override = SubResource("StandardMaterial3D_qulg7")
+
+[editable path="Root_Skeleton3D#characterMedium"]

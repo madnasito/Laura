@@ -1,0 +1,85 @@
+[gd_scene format=3 uid="uid://bygms17arfitu"]
+
+[ext_resource type="PackedScene" uid="uid://bcunlgdo8blp6" path="res://assets/3d/characters/characterMedium.fbx" id="1_54qew"]
+[ext_resource type="AnimationLibrary" uid="uid://d4fir2ufi0l1w" path="res://assets/3d/characters/animations/idle.fbx" id="2_mdkfl"]
+[ext_resource type="AnimationLibrary" uid="uid://c7ypp3f4fm6ub" path="res://assets/3d/characters/animations/jump.fbx" id="3_b1u1o"]
+[ext_resource type="AnimationLibrary" uid="uid://bq1y3v3urdylp" path="res://assets/3d/characters/animations/run.fbx" id="4_ke030"]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_b1u1o"]
+animation = &"idle/Root|Idle"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ke030"]
+animation = &"jump/Root|Jump"
+
+[sub_resource type="AnimationNodeBlendSpace1D" id="AnimationNodeBlendSpace1D_vliyq"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_b1u1o")
+blend_point_0/pos = 0.0
+blend_point_0/name = &"idle_Root|Idle"
+blend_point_1/node = SubResource("AnimationNodeAnimation_ke030")
+blend_point_1/pos = 1.0
+blend_point_1/name = &"jump_Root|Jump"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_jfi6v"]
+animation = &"idle/Root|Idle"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_f0775"]
+animation = &"run/Root|Run"
+
+[sub_resource type="AnimationNodeBlendSpace1D" id="AnimationNodeBlendSpace1D_jfi6v"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_jfi6v")
+blend_point_0/pos = 0.0
+blend_point_0/name = &"idle_Root|Idle"
+blend_point_1/node = SubResource("AnimationNodeAnimation_f0775")
+blend_point_1/pos = 1.0
+blend_point_1/name = &"run_Root|Run"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_mdkfl"]
+animation = &"idle/Root|Idle"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_b1u1o"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ke030"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_mdkfl"]
+switch_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_jfi6v"]
+switch_mode = 1
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_jfi6v"]
+allow_transition_to_self = true
+states/BlendSpace1D/node = SubResource("AnimationNodeBlendSpace1D_jfi6v")
+states/BlendSpace1D/position = Vector2(628, -1)
+"states/BlendSpace1D 2/node" = SubResource("AnimationNodeBlendSpace1D_vliyq")
+"states/BlendSpace1D 2/position" = Vector2(628, 193)
+states/idle_Root|Idle/node = SubResource("AnimationNodeAnimation_mdkfl")
+states/idle_Root|Idle/position = Vector2(388, 100)
+transitions = ["Start", "idle_Root|Idle", SubResource("AnimationNodeStateMachineTransition_b1u1o"), "idle_Root|Idle", "End", SubResource("AnimationNodeStateMachineTransition_ke030"), "idle_Root|Idle", "BlendSpace1D", SubResource("AnimationNodeStateMachineTransition_mdkfl"), "idle_Root|Idle", "BlendSpace1D 2", SubResource("AnimationNodeStateMachineTransition_jfi6v")]
+graph_offset = Vector2(0, -24.870296)
+
+[sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_vliyq"]
+graph_offset = Vector2(-836.0536, 21.988098)
+nodes/StateMachine/node = SubResource("AnimationNodeStateMachine_jfi6v")
+nodes/StateMachine/position = Vector2(-380, 160)
+node_connections = [&"output", 0, &"StateMachine"]
+
+[node name="Character" type="CharacterBody3D" unique_id=1775926240]
+
+[node name="Root" parent="." unique_id=562307510 instance=ExtResource("1_54qew")]
+
+[node name="AnimationTree" type="AnimationTree" parent="." unique_id=1495224533]
+tree_root = SubResource("AnimationNodeBlendTree_vliyq")
+anim_player = NodePath("../AnimationPlayer")
+parameters/StateMachine/BlendSpace1D/blend_position = 0.0
+"parameters/StateMachine/BlendSpace1D 2/blend_position" = 0.0
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." unique_id=407157757]
+libraries/idle = ExtResource("2_mdkfl")
+libraries/jump = ExtResource("3_b1u1o")
+libraries/run = ExtResource("4_ke030")
+
+[node name="Camera3D" type="Camera3D" parent="." unique_id=345617397]
+transform = Transform3D(-0.99999857, -2.910379e-11, -0.0017183693, -0.00038549374, 0.9745117, 0.22433661, 0.001674571, 0.22433695, -0.9745102, -0.096661925, 3.8370223, -4.291003)
+
+[editable path="Root"]
