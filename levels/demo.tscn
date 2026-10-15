@@ -1,7 +1,7 @@
 [gd_scene format=3 uid="uid://1d8oqpg55deb"]
 
 [ext_resource type="PackedScene" uid="uid://c8gvbqqbio43c" path="res://world.tscn" id="1_scm0b"]
-[ext_resource type="PackedScene" uid="uid://bdm0fiosl24i7" path="res://characters/male_skater.tscn" id="3_6mm5n"]
+[ext_resource type="PackedScene" uid="uid://bm3wacejthlon" path="res://characters/adventure/adventure_character.tscn" id="2_k4nkg"]
 
 [sub_resource type="Gradient" id="Gradient_k4nkg"]
 offsets = PackedFloat32Array(0.2, 1)
@@ -71,13 +71,15 @@ mesh_list = Array[Terrain3DMeshAsset]([SubResource("Terrain3DMeshAsset_j4ado")])
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." index="1" unique_id=945665589]
 transform = Transform3D(0.997084, 0.07568309, 0.009774685, -0.0756831, 0.96431863, 0.25369617, 0.009774655, -0.2536961, 0.96723455, -8.948609, 15.388911, 29.9965)
 
-[node name="MaleSkater" parent="." index="2" unique_id=835423851 instance=ExtResource("3_6mm5n")]
-transform = Transform3D(-0.5806987, 0, -0.8141186, 0, 1, 0, 0.8141186, 0, -0.5806987, -6.0371675, -0.2283516, -1.8010187)
-
-[node name="Terrain3D" type="Terrain3D" parent="." index="3" unique_id=171989720]
+[node name="Terrain3D" type="Terrain3D" parent="." index="2" unique_id=171989720]
 data_directory = "res://levels/terrain/"
 material = SubResource("Terrain3DMaterial_830l2")
 assets = SubResource("Terrain3DAssets_qr8kk")
+collision_layer = 2
+collision_mask = 3
 show_checkered = true
 top_level = true
 metadata/_edit_lock_ = true
+
+[node name="AdventureCharacter" parent="." index="3" unique_id=2115637089 instance=ExtResource("2_k4nkg")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 10.820308, 5.903762, -19.157047)
