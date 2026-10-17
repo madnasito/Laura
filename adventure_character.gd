@@ -30,6 +30,7 @@ func _unhandled_input(event: InputEvent) -> void:
 	)
 	if is_camera_motion:
 		_camera_input_direction = event.get_screen_relative() * mouse_sensitivity
+		_camera_input_direction.y *= -1
 	
 func _movement(delta: float) -> void:
 	_camera_pivot.rotation.x += _camera_input_direction.y * delta

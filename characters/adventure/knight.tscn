@@ -39,6 +39,27 @@
 [ext_resource type="Animation" uid="uid://b6ms13e65ihkq" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Spawn_Ground.res" id="15_x33sk"]
 [ext_resource type="Animation" uid="uid://dikojx10hqluj" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Throw.res" id="16_je17n"]
 [ext_resource type="Animation" uid="uid://2dltvu3fahy3" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Use_Item.res" id="17_ud8yr"]
+[ext_resource type="Animation" uid="uid://b54kwrvj8oore" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_1H_Attack_Chop.res" id="18_g77jb"]
+[ext_resource type="Animation" uid="uid://wr5pnbs1rx8o" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_1H_Attack_Jump_Chop.res" id="19_nyvde"]
+[ext_resource type="Animation" uid="uid://c5no3w6fk6ce" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_1H_Attack_Slice_Diagonal.res" id="20_vkcac"]
+[ext_resource type="Animation" uid="uid://du16i2nqsal50" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_1H_Attack_Slice_Horizontal.res" id="21_jepdo"]
+[ext_resource type="Animation" uid="uid://dquroaj8flfm0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_1H_Attack_Stab.res" id="22_xgsh7"]
+[ext_resource type="Animation" uid="uid://1y2u1cln76ge" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Attack_Chop.res" id="23_14waw"]
+[ext_resource type="Animation" uid="uid://df4a0mqd8wi6r" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Attack_Slice.res" id="24_88tbm"]
+[ext_resource type="Animation" uid="uid://bc4idn5spbbj2" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Attack_Spin.res" id="25_ouo3r"]
+[ext_resource type="Animation" uid="uid://cpc6b82ag5k4r" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Attack_Spinning.res" id="26_8b1n0"]
+[ext_resource type="Animation" uid="uid://bricdbnfhqaec" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Attack_Stab.res" id="27_ipe8m"]
+[ext_resource type="Animation" uid="uid://dn26siy7rcks5" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Idle.res" id="28_hq3ce"]
+[ext_resource type="Animation" uid="uid://dbuagc2ttyj37" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Block.res" id="29_b1aqq"]
+[ext_resource type="Animation" uid="uid://bhe157eihqoga" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Block_Attack.res" id="30_0wlxw"]
+[ext_resource type="Animation" uid="uid://cun7rwpi0surk" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Block_Hit.res" id="31_0fwkp"]
+[ext_resource type="Animation" uid="uid://cp40qcspwfjqu" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Blocking.res" id="32_3cisc"]
+[ext_resource type="Animation" uid="uid://cwkkbfmbs56fo" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Dualwield_Attack_Chop.res" id="33_q4c83"]
+[ext_resource type="Animation" uid="uid://belok2wadu4vn" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Dualwield_Attack_Slice.res" id="34_gv4sl"]
+[ext_resource type="Animation" uid="uid://c61gkbiuwqya6" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Dualwield_Attack_Stab.res" id="35_hsmyu"]
+[ext_resource type="Animation" uid="uid://ks1m08kdt4gm" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Unarmed_Attack_Kick.res" id="36_wh07r"]
+[ext_resource type="Animation" uid="uid://cjhmm6tewlgkd" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Unarmed_Attack_Punch_A.res" id="37_ecw4k"]
+[ext_resource type="Animation" uid="uid://dvvpi423jsu1i" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Unarmed_Idle.res" id="38_tkfay"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4ctjh"]
 resource_name = "knight"
@@ -85,6 +106,31 @@ _data = {
 &"Use_Item": ExtResource("17_ud8yr")
 }
 
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_doqlv"]
+_data = {
+&"Melee_1H_Attack_Chop": ExtResource("18_g77jb"),
+&"Melee_1H_Attack_Jump_Chop": ExtResource("19_nyvde"),
+&"Melee_1H_Attack_Slice_Diagonal": ExtResource("20_vkcac"),
+&"Melee_1H_Attack_Slice_Horizontal": ExtResource("21_jepdo"),
+&"Melee_1H_Attack_Stab": ExtResource("22_xgsh7"),
+&"Melee_2H_Attack_Chop": ExtResource("23_14waw"),
+&"Melee_2H_Attack_Slice": ExtResource("24_88tbm"),
+&"Melee_2H_Attack_Spin": ExtResource("25_ouo3r"),
+&"Melee_2H_Attack_Spinning": ExtResource("26_8b1n0"),
+&"Melee_2H_Attack_Stab": ExtResource("27_ipe8m"),
+&"Melee_2H_Idle": ExtResource("28_hq3ce"),
+&"Melee_Block": ExtResource("29_b1aqq"),
+&"Melee_Block_Attack": ExtResource("30_0wlxw"),
+&"Melee_Block_Hit": ExtResource("31_0fwkp"),
+&"Melee_Blocking": ExtResource("32_3cisc"),
+&"Melee_Dualwield_Attack_Chop": ExtResource("33_q4c83"),
+&"Melee_Dualwield_Attack_Slice": ExtResource("34_gv4sl"),
+&"Melee_Dualwield_Attack_Stab": ExtResource("35_hsmyu"),
+&"Melee_Unarmed_Attack_Kick": ExtResource("36_wh07r"),
+&"Melee_Unarmed_Attack_Punch_A": ExtResource("37_ecw4k"),
+&"Melee_Unarmed_Idle": ExtResource("38_tkfay")
+}
+
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_sig8i"]
 _data = {
 &"Crawling": ExtResource("4_vsagl"),
@@ -115,7 +161,226 @@ _data = {
 &"Walking_C": ExtResource("13_lmlo7")
 }
 
-[sub_resource type="AnimationNodeBlend2" id="AnimationNodeBlend2_lxowi"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_g77jb"]
+animation = &"melee/Melee_1H_Attack_Slice_Diagonal"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_nyvde"]
+animation = &"melee/Melee_1H_Attack_Slice_Horizontal"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_vkcac"]
+animation = &"melee/Melee_1H_Attack_Stab"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_jepdo"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_xgsh7"]
+switch_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_14waw"]
+switch_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_g77jb"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_nyvde"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_vkcac"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_g77jb"]
+state_machine_type = 1
+states/End/position = Vector2(1104, 100)
+states/Start/position = Vector2(137, 100)
+states/melee_Melee_1H_Attack_Slice_Diagonal/node = SubResource("AnimationNodeAnimation_g77jb")
+states/melee_Melee_1H_Attack_Slice_Diagonal/position = Vector2(690, 131)
+states/melee_Melee_1H_Attack_Slice_Horizontal/node = SubResource("AnimationNodeAnimation_nyvde")
+states/melee_Melee_1H_Attack_Slice_Horizontal/position = Vector2(983, 211)
+states/melee_Melee_1H_Attack_Stab/node = SubResource("AnimationNodeAnimation_vkcac")
+states/melee_Melee_1H_Attack_Stab/position = Vector2(433, 47)
+transitions = ["Start", "melee_Melee_1H_Attack_Stab", SubResource("AnimationNodeStateMachineTransition_jepdo"), "melee_Melee_1H_Attack_Stab", "melee_Melee_1H_Attack_Slice_Diagonal", SubResource("AnimationNodeStateMachineTransition_xgsh7"), "melee_Melee_1H_Attack_Slice_Diagonal", "melee_Melee_1H_Attack_Slice_Horizontal", SubResource("AnimationNodeStateMachineTransition_14waw"), "melee_Melee_1H_Attack_Stab", "End", SubResource("AnimationNodeStateMachineTransition_g77jb"), "melee_Melee_1H_Attack_Slice_Diagonal", "End", SubResource("AnimationNodeStateMachineTransition_nyvde"), "melee_Melee_1H_Attack_Slice_Horizontal", "End", SubResource("AnimationNodeStateMachineTransition_vkcac")]
+graph_offset = Vector2(0, -4.384929)
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ipe8m"]
+animation = &"general/Death_A"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_hq3ce"]
+animation = &"general/Death_B"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_jepdo"]
+animation = &"general/Hit_A"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_xgsh7"]
+animation = &"general/Hit_B"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_hq3ce"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_b1aqq"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_0wlxw"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_0fwkp"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_3cisc"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_txcdc"]
+switch_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_arcne"]
+switch_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_f7tix"]
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_nyvde"]
+states/general_Death_A/node = SubResource("AnimationNodeAnimation_ipe8m")
+states/general_Death_A/position = Vector2(395, -60)
+states/general_Death_B/node = SubResource("AnimationNodeAnimation_hq3ce")
+states/general_Death_B/position = Vector2(395, 235)
+states/general_Hit_A/node = SubResource("AnimationNodeAnimation_jepdo")
+states/general_Hit_A/position = Vector2(395, 131)
+states/general_Hit_B/node = SubResource("AnimationNodeAnimation_xgsh7")
+states/general_Hit_B/position = Vector2(395, 37)
+transitions = ["Start", "general_Hit_A", SubResource("AnimationNodeStateMachineTransition_hq3ce"), "general_Hit_A", "general_Hit_B", SubResource("AnimationNodeStateMachineTransition_b1aqq"), "general_Hit_B", "general_Hit_A", SubResource("AnimationNodeStateMachineTransition_0wlxw"), "general_Hit_A", "End", SubResource("AnimationNodeStateMachineTransition_0fwkp"), "general_Hit_B", "End", SubResource("AnimationNodeStateMachineTransition_3cisc"), "general_Hit_B", "general_Death_A", SubResource("AnimationNodeStateMachineTransition_txcdc"), "general_Hit_A", "general_Death_B", SubResource("AnimationNodeStateMachineTransition_arcne"), "Start", "general_Hit_B", SubResource("AnimationNodeStateMachineTransition_f7tix")]
+graph_offset = Vector2(-182.47281, -1.6861875)
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_b1aqq"]
+animation = &"movement_advanced/Dodge_Forward"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0wlxw"]
+animation = &"movement_advanced/Dodge_Left"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0fwkp"]
+animation = &"movement_advanced/Dodge_Backward"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_3cisc"]
+animation = &"movement_advanced/Dodge_Right"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_q4c83"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_b1aqq")
+blend_point_0/pos = Vector2(0, 1)
+blend_point_0/name = &"movement_advanced_Dodge_Forward"
+blend_point_1/node = SubResource("AnimationNodeAnimation_0wlxw")
+blend_point_1/pos = Vector2(-1, 0)
+blend_point_1/name = &"movement_advanced_Dodge_Left"
+blend_point_2/node = SubResource("AnimationNodeAnimation_0fwkp")
+blend_point_2/pos = Vector2(0, -1)
+blend_point_2/name = &"movement_advanced_Dodge_Backward"
+blend_point_3/node = SubResource("AnimationNodeAnimation_3cisc")
+blend_point_3/pos = Vector2(1, 0)
+blend_point_3/name = &"movement_advanced_Dodge_Right"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_gv4sl"]
+animation = &"general/Idle_B"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_hsmyu"]
+animation = &"movement_advanced/Walking_Backwards"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_wh07r"]
+animation = &"movement_advanced/Running_Strafe_Left"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ecw4k"]
+animation = &"movement_advanced/Running_Strafe_Right"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_tkfay"]
+animation = &"movement_basic/Walking_C"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_doqlv"]
+animation = &"movement_basic/Running_B"
+
+[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_wo5gf"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_gv4sl")
+blend_point_0/pos = Vector2(0, 0)
+blend_point_0/name = &"general_Idle_B"
+blend_point_1/node = SubResource("AnimationNodeAnimation_hsmyu")
+blend_point_1/pos = Vector2(0, -0.2)
+blend_point_1/name = &"movement_advanced_Walking_Backwards"
+blend_point_2/node = SubResource("AnimationNodeAnimation_wh07r")
+blend_point_2/pos = Vector2(-1, 0)
+blend_point_2/name = &"movement_advanced_Running_Strafe_Left"
+blend_point_3/node = SubResource("AnimationNodeAnimation_ecw4k")
+blend_point_3/pos = Vector2(1, 0)
+blend_point_3/name = &"movement_advanced_Running_Strafe_Right"
+blend_point_4/node = SubResource("AnimationNodeAnimation_tkfay")
+blend_point_4/pos = Vector2(0, 0.4)
+blend_point_4/name = &"movement_basic_Walking_C"
+blend_point_5/node = SubResource("AnimationNodeAnimation_doqlv")
+blend_point_5/pos = Vector2(0, 1)
+blend_point_5/name = &"movement_basic_Running_B"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_kt1ep"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_slwqc"]
+xfade_time = 0.1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ay7ru"]
+xfade_time = 0.1
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_bppch"]
+states/dodge/node = SubResource("AnimationNodeBlendSpace2D_q4c83")
+states/dodge/position = Vector2(640, 100)
+states/movement/node = SubResource("AnimationNodeBlendSpace2D_wo5gf")
+states/movement/position = Vector2(394, 100)
+transitions = ["Start", "movement", SubResource("AnimationNodeStateMachineTransition_kt1ep"), "movement", "dodge", SubResource("AnimationNodeStateMachineTransition_slwqc"), "dodge", "movement", SubResource("AnimationNodeStateMachineTransition_ay7ru")]
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_14waw"]
+animation = &"general/Interact"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_88tbm"]
+animation = &"general/PickUp"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ouo3r"]
+animation = &"general/Throw"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_8b1n0"]
+animation = &"general/Use_Item"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_gv4sl"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_hsmyu"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_wh07r"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ecw4k"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_tkfay"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_doqlv"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_wo5gf"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ys7oq"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_jl8b8"]
+states/Start/position = Vector2(135, 100)
+states/interact/node = SubResource("AnimationNodeAnimation_14waw")
+states/interact/position = Vector2(477, 213.11713)
+states/pick_up/node = SubResource("AnimationNodeAnimation_88tbm")
+states/pick_up/position = Vector2(477, -22)
+states/throw/node = SubResource("AnimationNodeAnimation_ouo3r")
+states/throw/position = Vector2(477, 53.196644)
+states/use_item/node = SubResource("AnimationNodeAnimation_8b1n0")
+states/use_item/position = Vector2(477, 131.27612)
+transitions = ["Start", "pick_up", SubResource("AnimationNodeStateMachineTransition_gv4sl"), "Start", "throw", SubResource("AnimationNodeStateMachineTransition_hsmyu"), "Start", "use_item", SubResource("AnimationNodeStateMachineTransition_wh07r"), "Start", "interact", SubResource("AnimationNodeStateMachineTransition_ecw4k"), "interact", "End", SubResource("AnimationNodeStateMachineTransition_tkfay"), "use_item", "End", SubResource("AnimationNodeStateMachineTransition_doqlv"), "throw", "End", SubResource("AnimationNodeStateMachineTransition_wo5gf"), "pick_up", "End", SubResource("AnimationNodeStateMachineTransition_ys7oq")]
+graph_offset = Vector2(-141.29247, -24.606722)
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_mam14"]
 animation = &"movement_basic/Jump_Idle"
@@ -143,149 +408,201 @@ advance_mode = 2
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_omocn"]
 states/End/position = Vector2(912, 231)
 states/Start/position = Vector2(97, 100)
-states/movement_basic_Jump_Idle/node = SubResource("AnimationNodeAnimation_mam14")
-states/movement_basic_Jump_Idle/position = Vector2(607, 100)
-states/movement_basic_Jump_Land/node = SubResource("AnimationNodeAnimation_stehk")
-states/movement_basic_Jump_Land/position = Vector2(607, 231)
-states/movement_basic_Jump_Start/node = SubResource("AnimationNodeAnimation_4d126")
-states/movement_basic_Jump_Start/position = Vector2(285, 100)
-transitions = ["movement_basic_Jump_Start", "movement_basic_Jump_Idle", SubResource("AnimationNodeStateMachineTransition_xcpnp"), "movement_basic_Jump_Idle", "movement_basic_Jump_Land", SubResource("AnimationNodeStateMachineTransition_x33sk"), "Start", "movement_basic_Jump_Start", SubResource("AnimationNodeStateMachineTransition_je17n"), "movement_basic_Jump_Land", "End", SubResource("AnimationNodeStateMachineTransition_ud8yr")]
+states/movement_basic_jump_idle/node = SubResource("AnimationNodeAnimation_mam14")
+states/movement_basic_jump_idle/position = Vector2(607, 100)
+states/movement_basic_jump_land/node = SubResource("AnimationNodeAnimation_stehk")
+states/movement_basic_jump_land/position = Vector2(607, 231)
+states/movement_basic_jump_start/node = SubResource("AnimationNodeAnimation_4d126")
+states/movement_basic_jump_start/position = Vector2(285, 100)
+transitions = ["movement_basic_jump_start", "movement_basic_jump_idle", SubResource("AnimationNodeStateMachineTransition_xcpnp"), "movement_basic_jump_idle", "movement_basic_jump_land", SubResource("AnimationNodeStateMachineTransition_x33sk"), "Start", "movement_basic_jump_start", SubResource("AnimationNodeStateMachineTransition_je17n"), "movement_basic_jump_land", "End", SubResource("AnimationNodeStateMachineTransition_ud8yr")]
 graph_offset = Vector2(0, 34.794968)
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_o0870"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_q4c83"]
+animation = &"movement_advanced/Crawling"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_wo5gf"]
+animation = &"movement_advanced/Crouching"
+
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ys7oq"]
 animation = &"general/Idle_A"
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_2ihct"]
-animation = &"movement_basic/Walking_C"
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_jl8b8"]
+animation = &"movement_basic/Walking_B"
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_vx1bo"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_l8veq"]
 animation = &"movement_basic/Running_B"
 
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_bw0wb"]
-animation = &"movement_basic/Walking_C"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_h32w4"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0ejw6"]
 animation = &"movement_basic/Running_B"
 
-[sub_resource type="AnimationNodeBlendSpace1D" id="AnimationNodeBlendSpace1D_mam14"]
-blend_point_0/node = SubResource("AnimationNodeAnimation_o0870")
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_txcdc"]
+animation = &"movement_basic/Running_B"
+
+[sub_resource type="AnimationNodeBlendSpace1D" id="AnimationNodeBlendSpace1D_arcne"]
+blend_point_0/node = SubResource("AnimationNodeAnimation_ys7oq")
 blend_point_0/pos = 0.0
-blend_point_0/name = &"general_Idle_B"
-blend_point_1/node = SubResource("AnimationNodeAnimation_2ihct")
-blend_point_1/pos = 0.2
-blend_point_1/name = &"movement_basic_Walking_C"
-blend_point_2/node = SubResource("AnimationNodeAnimation_vx1bo")
-blend_point_2/pos = 1.0
+blend_point_0/name = &"general_Idle_A"
+blend_point_1/node = SubResource("AnimationNodeAnimation_jl8b8")
+blend_point_1/pos = -0.2
+blend_point_1/name = &"movement_basic_Walking_B"
+blend_point_2/node = SubResource("AnimationNodeAnimation_l8veq")
+blend_point_2/pos = -1.0
 blend_point_2/name = &"movement_basic_Running_B"
-blend_point_3/node = SubResource("AnimationNodeAnimation_bw0wb")
-blend_point_3/pos = -0.2
-blend_point_3/name = &"movement_basic_Walking_C 2"
-blend_point_4/node = SubResource("AnimationNodeAnimation_h32w4")
-blend_point_4/pos = -1.0
-blend_point_4/name = &"movement_basic_Running_B 2"
+blend_point_3/node = SubResource("AnimationNodeAnimation_0ejw6")
+blend_point_3/pos = 0.2
+blend_point_3/name = &"movement_basic_Running_B 2"
+blend_point_4/node = SubResource("AnimationNodeAnimation_txcdc")
+blend_point_4/pos = 1.0
+blend_point_4/name = &"movement_basic_Running_B 3"
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_stehk"]
+[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_f7tix"]
+animation = &"movement_advanced/Sneaking"
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_bppch"]
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_s8m6y"]
-xfade_time = 0.1
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_6edme"]
+xfade_time = 0.7
 switch_mode = 1
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_12ne2"]
-xfade_time = 0.2
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_h5tsg"]
+xfade_time = 0.7
+switch_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_qabfx"]
+xfade_time = 0.7
+switch_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_x4qdf"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_rd8i6"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_76wtd"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ouo3r"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ipe8m"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_q4c83"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_jl8b8"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_0ejw6"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_q1oh0"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_q1oh0"]
+states/crawling/node = SubResource("AnimationNodeAnimation_q4c83")
+states/crawling/position = Vector2(628, -9)
+states/crouching/node = SubResource("AnimationNodeAnimation_wo5gf")
+states/crouching/position = Vector2(628, 100)
+states/movement/node = SubResource("AnimationNodeBlendSpace1D_arcne")
+states/movement/position = Vector2(377, 100)
+states/sneaking/node = SubResource("AnimationNodeAnimation_f7tix")
+states/sneaking/position = Vector2(628, 241)
+transitions = ["Start", "movement", SubResource("AnimationNodeStateMachineTransition_bppch"), "movement", "crawling", SubResource("AnimationNodeStateMachineTransition_6edme"), "movement", "crouching", SubResource("AnimationNodeStateMachineTransition_h5tsg"), "movement", "sneaking", SubResource("AnimationNodeStateMachineTransition_qabfx"), "crawling", "movement", SubResource("AnimationNodeStateMachineTransition_x4qdf"), "crouching", "movement", SubResource("AnimationNodeStateMachineTransition_rd8i6"), "sneaking", "movement", SubResource("AnimationNodeStateMachineTransition_76wtd"), "crawling", "crouching", SubResource("AnimationNodeStateMachineTransition_ouo3r"), "crouching", "crawling", SubResource("AnimationNodeStateMachineTransition_ipe8m"), "sneaking", "crouching", SubResource("AnimationNodeStateMachineTransition_q4c83"), "crouching", "sneaking", SubResource("AnimationNodeStateMachineTransition_jl8b8"), "sneaking", "crawling", SubResource("AnimationNodeStateMachineTransition_0ejw6"), "crawling", "sneaking", SubResource("AnimationNodeStateMachineTransition_q1oh0")]
+graph_offset = Vector2(0, -53.489536)
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_8b1n0"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_l8veq"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_363ky"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_854xe"]
 switch_mode = 2
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_bw0wb"]
-states/Jumping/node = SubResource("AnimationNodeStateMachine_omocn")
-states/Jumping/position = Vector2(432, 222.27197)
-states/Movement/node = SubResource("AnimationNodeBlendSpace1D_mam14")
-states/Movement/position = Vector2(432, 100)
-transitions = ["Start", "Movement", SubResource("AnimationNodeStateMachineTransition_stehk"), "Movement", "Jumping", SubResource("AnimationNodeStateMachineTransition_s8m6y"), "Jumping", "Movement", SubResource("AnimationNodeStateMachineTransition_12ne2")]
-graph_offset = Vector2(0, 15.271971)
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_vsagl"]
-animation = &"movement_basic/Running_B"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_t3cdj"]
-animation = &"movement_advanced/Walking_Backwards"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_y05k1"]
-animation = &"movement_advanced/Running_Strafe_Left"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_sjqoj"]
-animation = &"movement_advanced/Running_Strafe_Right"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_lxowi"]
-animation = &"general/Idle_A"
-
-[sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_q53yh"]
-animation = &"movement_basic/Walking_C"
-
-[sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_l7o0f"]
-blend_point_0/node = SubResource("AnimationNodeAnimation_vsagl")
-blend_point_0/pos = Vector2(0, 1)
-blend_point_0/name = &"movement_basic_Running_B"
-blend_point_1/node = SubResource("AnimationNodeAnimation_t3cdj")
-blend_point_1/pos = Vector2(0, -0.5)
-blend_point_1/name = &"movement_advanced_Walking_Backwards"
-blend_point_2/node = SubResource("AnimationNodeAnimation_y05k1")
-blend_point_2/pos = Vector2(-1, 0)
-blend_point_2/name = &"movement_advanced_Running_Strafe_Left"
-blend_point_3/node = SubResource("AnimationNodeAnimation_sjqoj")
-blend_point_3/pos = Vector2(1, 0)
-blend_point_3/name = &"movement_advanced_Running_Strafe_Right"
-blend_point_4/node = SubResource("AnimationNodeAnimation_lxowi")
-blend_point_4/pos = Vector2(0, 0)
-blend_point_4/name = &"general_Idle_A"
-blend_point_5/node = SubResource("AnimationNodeAnimation_q53yh")
-blend_point_5/pos = Vector2(0, 0.3)
-blend_point_5/name = &"movement_basic_Walking_C"
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_lxowi"]
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_junma"]
+switch_mode = 2
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_eklxh"]
-states/Movement/node = SubResource("AnimationNodeBlendSpace2D_l7o0f")
-states/Movement/position = Vector2(503.4, 100)
-transitions = ["Start", "Movement", SubResource("AnimationNodeStateMachineTransition_lxowi")]
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_0iijr"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_bmuwa"]
+switch_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_bcmk1"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_j6qtd"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_gxv47"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_u4g1k"]
+switch_mode = 2
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_4t63r"]
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_88tbm"]
+advance_mode = 2
+
+[sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_bw0wb"]
+allow_transition_to_self = true
+states/Attack/node = SubResource("AnimationNodeStateMachine_g77jb")
+states/Attack/position = Vector2(421, -106.72803)
+states/End/position = Vector2(1011, 107)
+states/Hit/node = SubResource("AnimationNodeStateMachine_nyvde")
+states/Hit/position = Vector2(786, -106.72803)
+states/Start/position = Vector2(177, 100)
+states/focused/node = SubResource("AnimationNodeStateMachine_bppch")
+states/focused/position = Vector2(786, 100)
+states/interactions/node = SubResource("AnimationNodeStateMachine_jl8b8")
+states/interactions/position = Vector2(786, 283.27197)
+states/jumping/node = SubResource("AnimationNodeStateMachine_omocn")
+states/jumping/position = Vector2(421, 283.27197)
+states/movement/node = SubResource("AnimationNodeStateMachine_q1oh0")
+states/movement/position = Vector2(421, 100)
+transitions = ["Attack", "Hit", SubResource("AnimationNodeStateMachineTransition_8b1n0"), "interactions", "Hit", SubResource("AnimationNodeStateMachineTransition_l8veq"), "movement", "jumping", SubResource("AnimationNodeStateMachineTransition_363ky"), "jumping", "movement", SubResource("AnimationNodeStateMachineTransition_854xe"), "interactions", "movement", SubResource("AnimationNodeStateMachineTransition_junma"), "movement", "interactions", SubResource("AnimationNodeStateMachineTransition_0iijr"), "movement", "focused", SubResource("AnimationNodeStateMachineTransition_bmuwa"), "focused", "movement", SubResource("AnimationNodeStateMachineTransition_bcmk1"), "movement", "Attack", SubResource("AnimationNodeStateMachineTransition_j6qtd"), "Attack", "movement", SubResource("AnimationNodeStateMachineTransition_gxv47"), "Hit", "movement", SubResource("AnimationNodeStateMachineTransition_u4g1k"), "movement", "Hit", SubResource("AnimationNodeStateMachineTransition_4t63r"), "Start", "movement", SubResource("AnimationNodeStateMachineTransition_88tbm")]
+graph_offset = Vector2(0, 19.87032)
 
 [sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_1vivr"]
-graph_offset = Vector2(-675.9346, 117.48097)
-nodes/StateMachine/node = SubResource("AnimationNodeStateMachine_eklxh")
-nodes/StateMachine/position = Vector2(-224, 112)
+graph_offset = Vector2(-420.7141, -15.83743)
 nodes/Movement/node = SubResource("AnimationNodeStateMachine_bw0wb")
-nodes/Movement/position = Vector2(-180, 360)
-nodes/Blend2/node = SubResource("AnimationNodeBlend2_lxowi")
-nodes/Blend2/position = Vector2(120, 260)
-node_connections = [&"output", 0, &"Blend2", &"Blend2", 0, &"StateMachine", &"Blend2", 1, &"Movement"]
+nodes/Movement/position = Vector2(-300, 80)
+node_connections = [&"output", 0, &"Movement"]
 
 [node name="Knight" unique_id=58326331 instance=ExtResource("1_vk1um")]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
 
 [node name="Skeleton3D" parent="Rig_Medium" parent_id_path=PackedInt32Array(563450643) index="0" unique_id=743004761]
-bones/1/position = Vector3(0, 0.4669124, 0)
-bones/1/rotation = Quaternion(-1.0263673e-09, 0.077877566, 7.79605e-09, 0.99696296)
-bones/2/rotation = Quaternion(0.034292776, -0.07777816, 0.004514725, 0.9963705)
-bones/3/rotation = Quaternion(-0.039343186, 9.373042e-13, -5.8252764e-11, 0.9992258)
-bones/4/rotation = Quaternion(-0.6515599, -0.32405695, -0.35385206, 0.58757615)
-bones/5/rotation = Quaternion(1.2333215e-08, -5.5487366e-08, -0.569674, 0.82187074)
-bones/7/rotation = Quaternion(-0.03525072, 0.030658659, 0.46490544, 0.88412696)
-bones/8/rotation = Quaternion(1.6806126e-09, 1.6806124e-09, -0.7071068, 0.7071067)
-bones/9/rotation = Quaternion(-0.63678706, 0.3509384, 0.37411135, 0.57566065)
-bones/10/rotation = Quaternion(1.4583838e-08, 5.5391357e-08, 0.522903, 0.8523922)
-bones/12/rotation = Quaternion(0.021299046, -0.07086746, -0.44163826, 0.8941364)
-bones/13/rotation = Quaternion(-2.2706748e-09, 7.539029e-09, 0.7071068, 0.7071067)
-bones/15/position = Vector3(-0.17094505, 0.1135872, 1.7855621e-08)
-bones/15/rotation = Quaternion(0.916781, -0.06682089, 0.029483592, 0.3926554)
-bones/16/rotation = Quaternion(0.85783243, -2.8834474e-08, 6.052407e-07, 0.5139294)
-bones/17/rotation = Quaternion(-0.68370104, 0.04171945, -0.05482085, 0.7265033)
-bones/18/rotation = Quaternion(6.790784e-05, 0.92017806, -0.39150006, -1.5292379e-05)
-bones/19/position = Vector3(0.17094505, 0.1135872, 1.7855621e-08)
-bones/19/rotation = Quaternion(0.95034045, 0.0037321355, 0.09688624, 0.29572302)
-bones/20/rotation = Quaternion(0.49174136, 5.6655015e-08, -3.4115118e-07, 0.87074137)
-bones/21/rotation = Quaternion(-0.24420929, -0.04546897, 0.012575045, 0.96857435)
-bones/22/rotation = Quaternion(2.6600152e-05, 0.9204544, -0.39085022, -5.9030026e-06)
+bones/1/position = Vector3(-2.3699435e-08, 0.27561605, 0.09940265)
+bones/1/rotation = Quaternion(-0.008085395, -1.1920538e-07, -9.638541e-10, 0.99996734)
+bones/2/rotation = Quaternion(0.2780648, 6.825205e-15, 1.9330914e-15, 0.9605623)
+bones/3/rotation = Quaternion(0.077488385, -1.3154533e-21, 1.3427109e-15, 0.99699324)
+bones/4/position = Vector3(0.2012122, 0.091169305, -0.051136695)
+bones/4/rotation = Quaternion(-0.71242076, 0.1256727, -0.4504832, 0.5231902)
+bones/5/rotation = Quaternion(-1.0674614e-08, -3.9591587e-08, -0.5577248, 0.8300259)
+bones/7/rotation = Quaternion(-0.35102892, -0.32489213, -0.258261, 0.83936)
+bones/8/rotation = Quaternion(0.10143516, -0.059989013, -0.70217955, 0.70217955)
+bones/9/position = Vector3(-0.2012122, 0.17709522, 0.05113668)
+bones/9/rotation = Quaternion(-0.73546445, 0.22058946, 0.54144, 0.34245455)
+bones/10/rotation = Quaternion(5.0488598e-08, 2.8362663e-08, 0.73639315, 0.6765539)
+bones/12/rotation = Quaternion(-0.36940563, 0.075870395, -0.16147983, 0.91198003)
+bones/13/position = Vector3(-4.5217305e-08, 0.09612501, -0.057499945)
+bones/13/rotation = Quaternion(0.101435125, 0.05998899, 0.70217955, 0.70217955)
+bones/14/rotation = Quaternion(-0.20769647, 2.965419e-22, -2.882369e-15, 0.97819334)
+bones/15/position = Vector3(-0.17094506, 0.11358726, 6.477187e-09)
+bones/15/rotation = Quaternion(0.84911853, 2.5227888e-07, -7.146217e-08, 0.52820235)
+bones/16/rotation = Quaternion(0.6085573, -5.478616e-08, 4.2262184e-07, 0.79351)
+bones/17/rotation = Quaternion(-0.45579308, 1.8691213e-07, -2.2620267e-07, 0.8900858)
+bones/18/rotation = Quaternion(4.1221454e-10, 0.9201981, -0.39145327, 4.7466866e-08)
+bones/19/position = Vector3(0.17094506, 0.11201081, 0.097478256)
+bones/19/rotation = Quaternion(0.92896014, -2.7803515e-07, -1.8049944e-08, -0.37017995)
+bones/20/rotation = Quaternion(0.4820071, 6.049306e-08, -3.3473708e-07, 0.8761673)
+bones/21/rotation = Quaternion(-0.8568715, -2.6042002e-07, -7.0073824e-08, 0.51553017)
+bones/22/rotation = Quaternion(4.317975e-08, 0.9181433, -0.3962488, 7.237708e-08)
 
 [node name="Knight_Helmet" parent="Rig_Medium/Skeleton3D" index="5" unique_id=1683002621]
 material_override = ExtResource("2_0cdg0")
@@ -296,12 +613,13 @@ material_override = ExtResource("2_0cdg0")
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="." index="1" unique_id=581732960]
 libraries/general = SubResource("AnimationLibrary_omocn")
+libraries/melee = SubResource("AnimationLibrary_doqlv")
 libraries/movement_advanced = SubResource("AnimationLibrary_sig8i")
 libraries/movement_basic = SubResource("AnimationLibrary_w40j1")
 
 [node name="AnimationTree" type="AnimationTree" parent="." index="2" unique_id=452299851]
 tree_root = SubResource("AnimationNodeBlendTree_1vivr")
 anim_player = NodePath("../AnimationPlayer")
-parameters/StateMachine/Movement/blend_position = Vector2(0.0018726587, 0.0045661926)
-parameters/Movement/Movement/blend_position = 0.0
-parameters/Blend2/blend_amount = 1.0
+parameters/Movement/focused/dodge/blend_position = Vector2(0.007490635, 0.9908676)
+parameters/Movement/focused/movement/blend_position = Vector2(-0.0037453175, 0.94520545)
+parameters/Movement/movement/movement/blend_position = 0.0
