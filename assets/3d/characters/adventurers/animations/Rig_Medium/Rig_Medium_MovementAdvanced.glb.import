@@ -41,9 +41,9 @@ materials/extract_format=0
 materials/extract_path=""
 _subresources={
 "animations": {
-"Crawling": {
+"crawling": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Crawling.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/crawling.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://calvpjvscfe1r",
 "settings/loop_mode": 0,
@@ -2097,9 +2097,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Crouching": {
+"crouching": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Crouching.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/crouching.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://rxt2wj4i4ogj",
 "settings/loop_mode": 0,
@@ -4153,9 +4153,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Dodge_Backward": {
+"dodge_backward": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Dodge_Backward.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_backward.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://h2gir3d86lb0",
 "settings/loop_mode": 0,
@@ -6209,9 +6209,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Dodge_Forward": {
+"dodge_forward": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Dodge_Forward.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_forward.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://586o5q7disng",
 "settings/loop_mode": 0,
@@ -8265,9 +8265,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Dodge_Left": {
+"dodge_left": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Dodge_Left.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_left.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bqrwi8h4j3g64",
 "settings/loop_mode": 0,
@@ -10321,9 +10321,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Dodge_Right": {
+"dodge_right": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Dodge_Right.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_right.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://ctd58bpaqta61",
 "settings/loop_mode": 0,
@@ -12377,9 +12377,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Running_HoldingBow": {
+"running_holding_bow": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Running_HoldingBow.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_holding_bow.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://0exa8y0h84so",
 "settings/loop_mode": 0,
@@ -14433,9 +14433,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Running_HoldingRifle": {
+"running_holding_rifle": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Running_HoldingRifle.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_holding_rifle.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://cyk7ixuk8qqev",
 "settings/loop_mode": 0,
@@ -16489,9 +16489,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Running_Strafe_Left": {
+"running_strafe_left": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Running_Strafe_Left.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_strafe_left.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://dwgeom5s3h4k0",
 "settings/loop_mode": 0,
@@ -18545,9 +18545,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Running_Strafe_Right": {
+"running_strafe_right": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Running_Strafe_Right.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_strafe_right.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://1f32dmmb5tdf",
 "settings/loop_mode": 0,
@@ -20601,9 +20601,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Sneaking": {
+"sneaking": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Sneaking.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/sneaking.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bco767k1lwemo",
 "settings/loop_mode": 0,
@@ -22657,9 +22657,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Walking_Backwards": {
+"walking_backwards": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Walking_Backwards.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/walking_backwards.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://ctyx8mrrer4ai",
 "settings/loop_mode": 0,

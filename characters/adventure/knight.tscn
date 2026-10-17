@@ -3,63 +3,63 @@
 [ext_resource type="PackedScene" uid="uid://bpibkrw5hyiy1" path="res://assets/3d/characters/adventurers/Knight.glb" id="1_vk1um"]
 [ext_resource type="Material" uid="uid://dh7ugy4reumgf" path="res://materials/gray_metal.tres" id="2_0cdg0"]
 [ext_resource type="Texture2D" uid="uid://dffc801ls2wg3" path="res://assets/3d/characters/adventurers/Knight_knight_texture.png" id="3_miprg"]
-[ext_resource type="Animation" uid="uid://dfujvu07dgdbt" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Death_A.res" id="4_lxowi"]
-[ext_resource type="Animation" uid="uid://c1rip4jn8cux0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Jump_Full_Long.res" id="4_qtqdq"]
-[ext_resource type="Animation" uid="uid://calvpjvscfe1r" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Crawling.res" id="4_vsagl"]
-[ext_resource type="Animation" uid="uid://0tdouj4sre5i" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Jump_Full_Short.res" id="5_pntg2"]
-[ext_resource type="Animation" uid="uid://dlvqmcx34u1eu" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Death_A_Pose.res" id="5_q53yh"]
-[ext_resource type="Animation" uid="uid://rxt2wj4i4ogj" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Crouching.res" id="5_t3cdj"]
-[ext_resource type="Animation" uid="uid://dtevfndce4ipy" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Jump_Idle.res" id="6_n1tlm"]
-[ext_resource type="Animation" uid="uid://dgwxvy4t255s6" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Death_B.res" id="6_o0870"]
-[ext_resource type="Animation" uid="uid://h2gir3d86lb0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Dodge_Backward.res" id="6_y05k1"]
-[ext_resource type="Animation" uid="uid://cmnbq2eff0gf8" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Death_B_Pose.res" id="7_2ihct"]
-[ext_resource type="Animation" uid="uid://bvm88gr74nktp" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Jump_Land.res" id="7_gmugt"]
-[ext_resource type="Animation" uid="uid://586o5q7disng" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Dodge_Forward.res" id="7_sjqoj"]
-[ext_resource type="Animation" uid="uid://bqrwi8h4j3g64" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Dodge_Left.res" id="8_l7o0f"]
-[ext_resource type="Animation" uid="uid://krncyq625rka" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Hit_A.res" id="8_vx1bo"]
-[ext_resource type="Animation" uid="uid://bubiyyn0q0807" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Jump_Start.res" id="8_xbwgh"]
-[ext_resource type="Animation" uid="uid://drou7a7kccxg7" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Running_A.res" id="9_80dw0"]
-[ext_resource type="Animation" uid="uid://ja0cy4lx8g2p" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Hit_B.res" id="9_bw0wb"]
-[ext_resource type="Animation" uid="uid://ctd58bpaqta61" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Dodge_Right.res" id="9_uw3jn"]
-[ext_resource type="Animation" uid="uid://0exa8y0h84so" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Running_HoldingBow.res" id="10_ahvsv"]
-[ext_resource type="Animation" uid="uid://cnfypo3qs8oko" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Idle_A.res" id="10_h32w4"]
-[ext_resource type="Animation" uid="uid://cylvujiosmn4a" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Running_B.res" id="10_xw1mu"]
-[ext_resource type="Animation" uid="uid://cyk7ixuk8qqev" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Running_HoldingRifle.res" id="11_18hi1"]
-[ext_resource type="Animation" uid="uid://mshcj0a1n23i" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Walking_A.res" id="11_kehhm"]
-[ext_resource type="Animation" uid="uid://b8wvvtklg83om" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Idle_B.res" id="11_mam14"]
-[ext_resource type="Animation" uid="uid://chqqtwfksqkqv" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Walking_B.res" id="12_iq5y5"]
-[ext_resource type="Animation" uid="uid://bc5hmismtaij0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Interact.res" id="12_stehk"]
-[ext_resource type="Animation" uid="uid://tjcpjkp3qy32" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Running_Strafe_Left.res" id="12_w730q"]
-[ext_resource type="Animation" uid="uid://b55moxfu42ham" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/PickUp.res" id="13_4d126"]
-[ext_resource type="Animation" uid="uid://be4nk0pf50h" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Walking_C.res" id="13_lmlo7"]
-[ext_resource type="Animation" uid="uid://bnx1a2up8v3jx" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Running_Strafe_Right.res" id="13_vwnwl"]
-[ext_resource type="Animation" uid="uid://bco767k1lwemo" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Sneaking.res" id="14_jmq4t"]
-[ext_resource type="Animation" uid="uid://bdsft4fy40sh6" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Spawn_Air.res" id="14_xcpnp"]
-[ext_resource type="Animation" uid="uid://bbh6h2iyjjyav" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/Walking_Backwards.res" id="15_bjp74"]
-[ext_resource type="Animation" uid="uid://b6ms13e65ihkq" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Spawn_Ground.res" id="15_x33sk"]
-[ext_resource type="Animation" uid="uid://dikojx10hqluj" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Throw.res" id="16_je17n"]
-[ext_resource type="Animation" uid="uid://2dltvu3fahy3" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/Use_Item.res" id="17_ud8yr"]
-[ext_resource type="Animation" uid="uid://b54kwrvj8oore" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_1H_Attack_Chop.res" id="18_g77jb"]
-[ext_resource type="Animation" uid="uid://wr5pnbs1rx8o" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_1H_Attack_Jump_Chop.res" id="19_nyvde"]
-[ext_resource type="Animation" uid="uid://c5no3w6fk6ce" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_1H_Attack_Slice_Diagonal.res" id="20_vkcac"]
-[ext_resource type="Animation" uid="uid://du16i2nqsal50" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_1H_Attack_Slice_Horizontal.res" id="21_jepdo"]
-[ext_resource type="Animation" uid="uid://dquroaj8flfm0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_1H_Attack_Stab.res" id="22_xgsh7"]
-[ext_resource type="Animation" uid="uid://1y2u1cln76ge" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Attack_Chop.res" id="23_14waw"]
-[ext_resource type="Animation" uid="uid://df4a0mqd8wi6r" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Attack_Slice.res" id="24_88tbm"]
-[ext_resource type="Animation" uid="uid://bc4idn5spbbj2" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Attack_Spin.res" id="25_ouo3r"]
-[ext_resource type="Animation" uid="uid://cpc6b82ag5k4r" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Attack_Spinning.res" id="26_8b1n0"]
-[ext_resource type="Animation" uid="uid://bricdbnfhqaec" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Attack_Stab.res" id="27_ipe8m"]
-[ext_resource type="Animation" uid="uid://dn26siy7rcks5" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_2H_Idle.res" id="28_hq3ce"]
-[ext_resource type="Animation" uid="uid://dbuagc2ttyj37" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Block.res" id="29_b1aqq"]
-[ext_resource type="Animation" uid="uid://bhe157eihqoga" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Block_Attack.res" id="30_0wlxw"]
-[ext_resource type="Animation" uid="uid://cun7rwpi0surk" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Block_Hit.res" id="31_0fwkp"]
-[ext_resource type="Animation" uid="uid://cp40qcspwfjqu" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Blocking.res" id="32_3cisc"]
-[ext_resource type="Animation" uid="uid://cwkkbfmbs56fo" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Dualwield_Attack_Chop.res" id="33_q4c83"]
-[ext_resource type="Animation" uid="uid://belok2wadu4vn" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Dualwield_Attack_Slice.res" id="34_gv4sl"]
-[ext_resource type="Animation" uid="uid://c61gkbiuwqya6" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Dualwield_Attack_Stab.res" id="35_hsmyu"]
-[ext_resource type="Animation" uid="uid://ks1m08kdt4gm" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Unarmed_Attack_Kick.res" id="36_wh07r"]
-[ext_resource type="Animation" uid="uid://cjhmm6tewlgkd" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Unarmed_Attack_Punch_A.res" id="37_ecw4k"]
-[ext_resource type="Animation" uid="uid://dvvpi423jsu1i" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/Melee_Unarmed_Idle.res" id="38_tkfay"]
+[ext_resource type="Animation" uid="uid://dfujvu07dgdbt" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/death_a.res" id="4_lxowi"]
+[ext_resource type="Animation" uid="uid://c1rip4jn8cux0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_full_long.res" id="4_qtqdq"]
+[ext_resource type="Animation" uid="uid://calvpjvscfe1r" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/crawling.res" id="4_vsagl"]
+[ext_resource type="Animation" uid="uid://0tdouj4sre5i" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_full_short.res" id="5_pntg2"]
+[ext_resource type="Animation" uid="uid://dlvqmcx34u1eu" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/death_a_pose.res" id="5_q53yh"]
+[ext_resource type="Animation" uid="uid://rxt2wj4i4ogj" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/crouching.res" id="5_t3cdj"]
+[ext_resource type="Animation" uid="uid://dtevfndce4ipy" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_idle.res" id="6_n1tlm"]
+[ext_resource type="Animation" uid="uid://dgwxvy4t255s6" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/death_b.res" id="6_o0870"]
+[ext_resource type="Animation" uid="uid://h2gir3d86lb0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_backward.res" id="6_y05k1"]
+[ext_resource type="Animation" uid="uid://cmnbq2eff0gf8" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/death_b_pose.res" id="7_2ihct"]
+[ext_resource type="Animation" uid="uid://bvm88gr74nktp" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_land.res" id="7_gmugt"]
+[ext_resource type="Animation" uid="uid://586o5q7disng" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_forward.res" id="7_sjqoj"]
+[ext_resource type="Animation" uid="uid://bqrwi8h4j3g64" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_left.res" id="8_l7o0f"]
+[ext_resource type="Animation" uid="uid://krncyq625rka" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/hit_a.res" id="8_vx1bo"]
+[ext_resource type="Animation" uid="uid://bubiyyn0q0807" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_start.res" id="8_xbwgh"]
+[ext_resource type="Animation" uid="uid://drou7a7kccxg7" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/running_a.res" id="9_80dw0"]
+[ext_resource type="Animation" uid="uid://ja0cy4lx8g2p" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/hit_b.res" id="9_bw0wb"]
+[ext_resource type="Animation" uid="uid://ctd58bpaqta61" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_right.res" id="9_uw3jn"]
+[ext_resource type="Animation" uid="uid://0exa8y0h84so" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_holding_bow.res" id="10_ahvsv"]
+[ext_resource type="Animation" uid="uid://cnfypo3qs8oko" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/idle_a.res" id="10_h32w4"]
+[ext_resource type="Animation" uid="uid://cylvujiosmn4a" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/running_b.res" id="10_xw1mu"]
+[ext_resource type="Animation" uid="uid://cyk7ixuk8qqev" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_holding_rifle.res" id="11_18hi1"]
+[ext_resource type="Animation" uid="uid://mshcj0a1n23i" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/walking_a.res" id="11_kehhm"]
+[ext_resource type="Animation" uid="uid://b8wvvtklg83om" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/idle_b.res" id="11_mam14"]
+[ext_resource type="Animation" uid="uid://chqqtwfksqkqv" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/walking_b.res" id="12_iq5y5"]
+[ext_resource type="Animation" uid="uid://bc5hmismtaij0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/interact.res" id="12_stehk"]
+[ext_resource type="Animation" uid="uid://tjcpjkp3qy32" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_strafe_left.res" id="12_w730q"]
+[ext_resource type="Animation" uid="uid://b55moxfu42ham" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/pick_up.res" id="13_4d126"]
+[ext_resource type="Animation" uid="uid://be4nk0pf50h" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/walking_c.res" id="13_lmlo7"]
+[ext_resource type="Animation" uid="uid://bnx1a2up8v3jx" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_strafe_right.res" id="13_vwnwl"]
+[ext_resource type="Animation" uid="uid://bco767k1lwemo" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/sneaking.res" id="14_jmq4t"]
+[ext_resource type="Animation" uid="uid://bdsft4fy40sh6" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/spawn_air.res" id="14_xcpnp"]
+[ext_resource type="Animation" uid="uid://bbh6h2iyjjyav" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/walking_backwards.res" id="15_bjp74"]
+[ext_resource type="Animation" uid="uid://b6ms13e65ihkq" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/spawn_ground.res" id="15_x33sk"]
+[ext_resource type="Animation" uid="uid://dikojx10hqluj" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/throw.res" id="16_je17n"]
+[ext_resource type="Animation" uid="uid://2dltvu3fahy3" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/use_item.res" id="17_ud8yr"]
+[ext_resource type="Animation" uid="uid://b54kwrvj8oore" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_1h_attack_chop.res" id="18_g77jb"]
+[ext_resource type="Animation" uid="uid://wr5pnbs1rx8o" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_1h_attack_jump_chop.res" id="19_nyvde"]
+[ext_resource type="Animation" uid="uid://c5no3w6fk6ce" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_1h_attack_slice_diagonal.res" id="20_vkcac"]
+[ext_resource type="Animation" uid="uid://du16i2nqsal50" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_1h_attack_slice_horizontal.res" id="21_jepdo"]
+[ext_resource type="Animation" uid="uid://dquroaj8flfm0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_1h_attack_stab.res" id="22_xgsh7"]
+[ext_resource type="Animation" uid="uid://1y2u1cln76ge" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_attack_chop.res" id="23_14waw"]
+[ext_resource type="Animation" uid="uid://df4a0mqd8wi6r" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_attack_slice.res" id="24_88tbm"]
+[ext_resource type="Animation" uid="uid://bc4idn5spbbj2" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_attack_spin.res" id="25_ouo3r"]
+[ext_resource type="Animation" uid="uid://cpc6b82ag5k4r" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_attack_spinning.res" id="26_8b1n0"]
+[ext_resource type="Animation" uid="uid://bricdbnfhqaec" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_attack_stab.res" id="27_ipe8m"]
+[ext_resource type="Animation" uid="uid://dn26siy7rcks5" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_idle.res" id="28_hq3ce"]
+[ext_resource type="Animation" uid="uid://dbuagc2ttyj37" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_block.res" id="29_b1aqq"]
+[ext_resource type="Animation" uid="uid://bhe157eihqoga" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_block_attack.res" id="30_0wlxw"]
+[ext_resource type="Animation" uid="uid://cun7rwpi0surk" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_block_hit.res" id="31_0fwkp"]
+[ext_resource type="Animation" uid="uid://cp40qcspwfjqu" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_blocking.res" id="32_3cisc"]
+[ext_resource type="Animation" uid="uid://cwkkbfmbs56fo" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_dualwield_attack_chop.res" id="33_q4c83"]
+[ext_resource type="Animation" uid="uid://belok2wadu4vn" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_dualwield_attack_slice.res" id="34_gv4sl"]
+[ext_resource type="Animation" uid="uid://c61gkbiuwqya6" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_dualwield_attack_stab.res" id="35_hsmyu"]
+[ext_resource type="Animation" uid="uid://ks1m08kdt4gm" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_unarmed_attack_kick.res" id="36_wh07r"]
+[ext_resource type="Animation" uid="uid://cjhmm6tewlgkd" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_unarmed_attack_punch_a.res" id="37_ecw4k"]
+[ext_resource type="Animation" uid="uid://dvvpi423jsu1i" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_unarmed_idle.res" id="38_tkfay"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_4ctjh"]
 resource_name = "knight"
@@ -90,85 +90,85 @@ blend_shape_mode = 0
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_omocn"]
 _data = {
-&"Death_A": ExtResource("4_lxowi"),
-&"Death_A_Pose": ExtResource("5_q53yh"),
-&"Death_B": ExtResource("6_o0870"),
-&"Death_B_Pose": ExtResource("7_2ihct"),
-&"Hit_A": ExtResource("8_vx1bo"),
-&"Hit_B": ExtResource("9_bw0wb"),
-&"Idle_A": ExtResource("10_h32w4"),
-&"Idle_B": ExtResource("11_mam14"),
-&"Interact": ExtResource("12_stehk"),
-&"PickUp": ExtResource("13_4d126"),
-&"Spawn_Air": ExtResource("14_xcpnp"),
-&"Spawn_Ground": ExtResource("15_x33sk"),
-&"Throw": ExtResource("16_je17n"),
-&"Use_Item": ExtResource("17_ud8yr")
+&"death_a": ExtResource("4_lxowi"),
+&"death_a_pose": ExtResource("5_q53yh"),
+&"death_b": ExtResource("6_o0870"),
+&"death_b_pose": ExtResource("7_2ihct"),
+&"hit_a": ExtResource("8_vx1bo"),
+&"hit_b": ExtResource("9_bw0wb"),
+&"idle_a": ExtResource("10_h32w4"),
+&"idle_b": ExtResource("11_mam14"),
+&"interact": ExtResource("12_stehk"),
+&"pick_up": ExtResource("13_4d126"),
+&"spawn_air": ExtResource("14_xcpnp"),
+&"spawn_ground": ExtResource("15_x33sk"),
+&"throw": ExtResource("16_je17n"),
+&"use_item": ExtResource("17_ud8yr")
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_doqlv"]
 _data = {
-&"Melee_1H_Attack_Chop": ExtResource("18_g77jb"),
-&"Melee_1H_Attack_Jump_Chop": ExtResource("19_nyvde"),
-&"Melee_1H_Attack_Slice_Diagonal": ExtResource("20_vkcac"),
-&"Melee_1H_Attack_Slice_Horizontal": ExtResource("21_jepdo"),
-&"Melee_1H_Attack_Stab": ExtResource("22_xgsh7"),
-&"Melee_2H_Attack_Chop": ExtResource("23_14waw"),
-&"Melee_2H_Attack_Slice": ExtResource("24_88tbm"),
-&"Melee_2H_Attack_Spin": ExtResource("25_ouo3r"),
-&"Melee_2H_Attack_Spinning": ExtResource("26_8b1n0"),
-&"Melee_2H_Attack_Stab": ExtResource("27_ipe8m"),
-&"Melee_2H_Idle": ExtResource("28_hq3ce"),
-&"Melee_Block": ExtResource("29_b1aqq"),
-&"Melee_Block_Attack": ExtResource("30_0wlxw"),
-&"Melee_Block_Hit": ExtResource("31_0fwkp"),
-&"Melee_Blocking": ExtResource("32_3cisc"),
-&"Melee_Dualwield_Attack_Chop": ExtResource("33_q4c83"),
-&"Melee_Dualwield_Attack_Slice": ExtResource("34_gv4sl"),
-&"Melee_Dualwield_Attack_Stab": ExtResource("35_hsmyu"),
-&"Melee_Unarmed_Attack_Kick": ExtResource("36_wh07r"),
-&"Melee_Unarmed_Attack_Punch_A": ExtResource("37_ecw4k"),
-&"Melee_Unarmed_Idle": ExtResource("38_tkfay")
+&"melee_1h_attack_chop": ExtResource("18_g77jb"),
+&"melee_1h_attack_jump_chop": ExtResource("19_nyvde"),
+&"melee_1h_attack_slice_diagonal": ExtResource("20_vkcac"),
+&"melee_1h_attack_slice_horizontal": ExtResource("21_jepdo"),
+&"melee_1h_attack_stab": ExtResource("22_xgsh7"),
+&"melee_2h_attack_chop": ExtResource("23_14waw"),
+&"melee_2h_attack_slice": ExtResource("24_88tbm"),
+&"melee_2h_attack_spin": ExtResource("25_ouo3r"),
+&"melee_2h_attack_spinning": ExtResource("26_8b1n0"),
+&"melee_2h_attack_stab": ExtResource("27_ipe8m"),
+&"melee_2h_idle": ExtResource("28_hq3ce"),
+&"melee_block": ExtResource("29_b1aqq"),
+&"melee_block_attack": ExtResource("30_0wlxw"),
+&"melee_block_hit": ExtResource("31_0fwkp"),
+&"melee_blocking": ExtResource("32_3cisc"),
+&"melee_dualwield_attack_chop": ExtResource("33_q4c83"),
+&"melee_dualwield_attack_slice": ExtResource("34_gv4sl"),
+&"melee_dualwield_attack_stab": ExtResource("35_hsmyu"),
+&"melee_unarmed_attack_kick": ExtResource("36_wh07r"),
+&"melee_unarmed_attack_punch_a": ExtResource("37_ecw4k"),
+&"melee_unarmed_idle": ExtResource("38_tkfay")
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_sig8i"]
 _data = {
-&"Crawling": ExtResource("4_vsagl"),
-&"Crouching": ExtResource("5_t3cdj"),
-&"Dodge_Backward": ExtResource("6_y05k1"),
-&"Dodge_Forward": ExtResource("7_sjqoj"),
-&"Dodge_Left": ExtResource("8_l7o0f"),
-&"Dodge_Right": ExtResource("9_uw3jn"),
-&"Running_HoldingBow": ExtResource("10_ahvsv"),
-&"Running_HoldingRifle": ExtResource("11_18hi1"),
-&"Running_Strafe_Left": ExtResource("12_w730q"),
-&"Running_Strafe_Right": ExtResource("13_vwnwl"),
-&"Sneaking": ExtResource("14_jmq4t"),
-&"Walking_Backwards": ExtResource("15_bjp74")
+&"crawling": ExtResource("4_vsagl"),
+&"crouching": ExtResource("5_t3cdj"),
+&"dodge_backward": ExtResource("6_y05k1"),
+&"dodge_forward": ExtResource("7_sjqoj"),
+&"dodge_left": ExtResource("8_l7o0f"),
+&"dodge_right": ExtResource("9_uw3jn"),
+&"running_holding_bow": ExtResource("10_ahvsv"),
+&"running_holding_rifle": ExtResource("11_18hi1"),
+&"running_strafe_left": ExtResource("12_w730q"),
+&"running_strafe_right": ExtResource("13_vwnwl"),
+&"sneaking": ExtResource("14_jmq4t"),
+&"walking_backwards": ExtResource("15_bjp74")
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_w40j1"]
 _data = {
-&"Jump_Full_Long": ExtResource("4_qtqdq"),
-&"Jump_Full_Short": ExtResource("5_pntg2"),
-&"Jump_Idle": ExtResource("6_n1tlm"),
-&"Jump_Land": ExtResource("7_gmugt"),
-&"Jump_Start": ExtResource("8_xbwgh"),
-&"Running_A": ExtResource("9_80dw0"),
-&"Running_B": ExtResource("10_xw1mu"),
-&"Walking_A": ExtResource("11_kehhm"),
-&"Walking_B": ExtResource("12_iq5y5"),
-&"Walking_C": ExtResource("13_lmlo7")
+&"jump_full_long": ExtResource("4_qtqdq"),
+&"jump_full_short": ExtResource("5_pntg2"),
+&"jump_idle": ExtResource("6_n1tlm"),
+&"jump_land": ExtResource("7_gmugt"),
+&"jump_start": ExtResource("8_xbwgh"),
+&"running_a": ExtResource("9_80dw0"),
+&"running_b": ExtResource("10_xw1mu"),
+&"walking_a": ExtResource("11_kehhm"),
+&"walking_b": ExtResource("12_iq5y5"),
+&"walking_c": ExtResource("13_lmlo7")
 }
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_g77jb"]
-animation = &"melee/Melee_1H_Attack_Slice_Diagonal"
+animation = &"melee/melee_1h_attack_slice_diagonal"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_nyvde"]
-animation = &"melee/Melee_1H_Attack_Slice_Horizontal"
+animation = &"melee/melee_1h_attack_slice_horizontal"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_vkcac"]
-animation = &"melee/Melee_1H_Attack_Stab"
+animation = &"melee/melee_1h_attack_stab"
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_jepdo"]
 advance_mode = 2
@@ -195,26 +195,26 @@ advance_mode = 2
 state_machine_type = 1
 states/End/position = Vector2(1104, 100)
 states/Start/position = Vector2(137, 100)
-states/melee_Melee_1H_Attack_Slice_Diagonal/node = SubResource("AnimationNodeAnimation_g77jb")
-states/melee_Melee_1H_Attack_Slice_Diagonal/position = Vector2(690, 131)
-states/melee_Melee_1H_Attack_Slice_Horizontal/node = SubResource("AnimationNodeAnimation_nyvde")
-states/melee_Melee_1H_Attack_Slice_Horizontal/position = Vector2(983, 211)
-states/melee_Melee_1H_Attack_Stab/node = SubResource("AnimationNodeAnimation_vkcac")
-states/melee_Melee_1H_Attack_Stab/position = Vector2(433, 47)
-transitions = ["Start", "melee_Melee_1H_Attack_Stab", SubResource("AnimationNodeStateMachineTransition_jepdo"), "melee_Melee_1H_Attack_Stab", "melee_Melee_1H_Attack_Slice_Diagonal", SubResource("AnimationNodeStateMachineTransition_xgsh7"), "melee_Melee_1H_Attack_Slice_Diagonal", "melee_Melee_1H_Attack_Slice_Horizontal", SubResource("AnimationNodeStateMachineTransition_14waw"), "melee_Melee_1H_Attack_Stab", "End", SubResource("AnimationNodeStateMachineTransition_g77jb"), "melee_Melee_1H_Attack_Slice_Diagonal", "End", SubResource("AnimationNodeStateMachineTransition_nyvde"), "melee_Melee_1H_Attack_Slice_Horizontal", "End", SubResource("AnimationNodeStateMachineTransition_vkcac")]
+states/melee_melee_1h_attack_slice_diagonal/node = SubResource("AnimationNodeAnimation_g77jb")
+states/melee_melee_1h_attack_slice_diagonal/position = Vector2(690, 131)
+states/melee_melee_1h_attack_slice_horizontal/node = SubResource("AnimationNodeAnimation_nyvde")
+states/melee_melee_1h_attack_slice_horizontal/position = Vector2(983, 211)
+states/melee_melee_1h_attack_stab/node = SubResource("AnimationNodeAnimation_vkcac")
+states/melee_melee_1h_attack_stab/position = Vector2(433, 47)
+transitions = ["Start", "melee_melee_1h_attack_stab", SubResource("AnimationNodeStateMachineTransition_jepdo"), "melee_melee_1h_attack_stab", "melee_melee_1h_attack_slice_diagonal", SubResource("AnimationNodeStateMachineTransition_xgsh7"), "melee_melee_1h_attack_slice_diagonal", "melee_melee_1h_attack_slice_horizontal", SubResource("AnimationNodeStateMachineTransition_14waw"), "melee_melee_1h_attack_stab", "End", SubResource("AnimationNodeStateMachineTransition_g77jb"), "melee_melee_1h_attack_slice_diagonal", "End", SubResource("AnimationNodeStateMachineTransition_nyvde"), "melee_melee_1h_attack_slice_horizontal", "End", SubResource("AnimationNodeStateMachineTransition_vkcac")]
 graph_offset = Vector2(0, -4.384929)
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ipe8m"]
-animation = &"general/Death_A"
+animation = &"general/death_a"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_hq3ce"]
-animation = &"general/Death_B"
+animation = &"general/death_b"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_jepdo"]
-animation = &"general/Hit_A"
+animation = &"general/hit_a"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_xgsh7"]
-animation = &"general/Hit_B"
+animation = &"general/hit_b"
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_hq3ce"]
 advance_mode = 2
@@ -240,80 +240,80 @@ switch_mode = 1
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_f7tix"]
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_nyvde"]
-states/general_Death_A/node = SubResource("AnimationNodeAnimation_ipe8m")
-states/general_Death_A/position = Vector2(395, -60)
-states/general_Death_B/node = SubResource("AnimationNodeAnimation_hq3ce")
-states/general_Death_B/position = Vector2(395, 235)
-states/general_Hit_A/node = SubResource("AnimationNodeAnimation_jepdo")
-states/general_Hit_A/position = Vector2(395, 131)
-states/general_Hit_B/node = SubResource("AnimationNodeAnimation_xgsh7")
-states/general_Hit_B/position = Vector2(395, 37)
-transitions = ["Start", "general_Hit_A", SubResource("AnimationNodeStateMachineTransition_hq3ce"), "general_Hit_A", "general_Hit_B", SubResource("AnimationNodeStateMachineTransition_b1aqq"), "general_Hit_B", "general_Hit_A", SubResource("AnimationNodeStateMachineTransition_0wlxw"), "general_Hit_A", "End", SubResource("AnimationNodeStateMachineTransition_0fwkp"), "general_Hit_B", "End", SubResource("AnimationNodeStateMachineTransition_3cisc"), "general_Hit_B", "general_Death_A", SubResource("AnimationNodeStateMachineTransition_txcdc"), "general_Hit_A", "general_Death_B", SubResource("AnimationNodeStateMachineTransition_arcne"), "Start", "general_Hit_B", SubResource("AnimationNodeStateMachineTransition_f7tix")]
+states/general_death_a/node = SubResource("AnimationNodeAnimation_ipe8m")
+states/general_death_a/position = Vector2(395, -60)
+states/general_death_b/node = SubResource("AnimationNodeAnimation_hq3ce")
+states/general_death_b/position = Vector2(395, 235)
+states/general_hit_a/node = SubResource("AnimationNodeAnimation_jepdo")
+states/general_hit_a/position = Vector2(395, 131)
+states/general_hit_b/node = SubResource("AnimationNodeAnimation_xgsh7")
+states/general_hit_b/position = Vector2(395, 37)
+transitions = ["Start", "general_hit_a", SubResource("AnimationNodeStateMachineTransition_hq3ce"), "general_hit_a", "general_hit_b", SubResource("AnimationNodeStateMachineTransition_b1aqq"), "general_hit_b", "general_hit_a", SubResource("AnimationNodeStateMachineTransition_0wlxw"), "general_hit_a", "End", SubResource("AnimationNodeStateMachineTransition_0fwkp"), "general_hit_b", "End", SubResource("AnimationNodeStateMachineTransition_3cisc"), "general_hit_b", "general_death_a", SubResource("AnimationNodeStateMachineTransition_txcdc"), "general_hit_a", "general_death_b", SubResource("AnimationNodeStateMachineTransition_arcne"), "Start", "general_hit_b", SubResource("AnimationNodeStateMachineTransition_f7tix")]
 graph_offset = Vector2(-182.47281, -1.6861875)
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_b1aqq"]
-animation = &"movement_advanced/Dodge_Forward"
+animation = &"movement_advanced/dodge_forward"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0wlxw"]
-animation = &"movement_advanced/Dodge_Left"
+animation = &"movement_advanced/dodge_left"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0fwkp"]
-animation = &"movement_advanced/Dodge_Backward"
+animation = &"movement_advanced/dodge_backward"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_3cisc"]
-animation = &"movement_advanced/Dodge_Right"
+animation = &"movement_advanced/dodge_right"
 
 [sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_q4c83"]
 blend_point_0/node = SubResource("AnimationNodeAnimation_b1aqq")
 blend_point_0/pos = Vector2(0, 1)
-blend_point_0/name = &"movement_advanced_Dodge_Forward"
+blend_point_0/name = &"movement_advanced_dodge_forward"
 blend_point_1/node = SubResource("AnimationNodeAnimation_0wlxw")
 blend_point_1/pos = Vector2(-1, 0)
-blend_point_1/name = &"movement_advanced_Dodge_Left"
+blend_point_1/name = &"movement_advanced_dodge_left"
 blend_point_2/node = SubResource("AnimationNodeAnimation_0fwkp")
 blend_point_2/pos = Vector2(0, -1)
-blend_point_2/name = &"movement_advanced_Dodge_Backward"
+blend_point_2/name = &"movement_advanced_dodge_backward"
 blend_point_3/node = SubResource("AnimationNodeAnimation_3cisc")
 blend_point_3/pos = Vector2(1, 0)
-blend_point_3/name = &"movement_advanced_Dodge_Right"
+blend_point_3/name = &"movement_advanced_dodge_right"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_gv4sl"]
-animation = &"general/Idle_B"
+animation = &"general/idle_b"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_hsmyu"]
-animation = &"movement_advanced/Walking_Backwards"
+animation = &"movement_advanced/walking_backwards"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_wh07r"]
-animation = &"movement_advanced/Running_Strafe_Left"
+animation = &"movement_advanced/running_strafe_left"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ecw4k"]
-animation = &"movement_advanced/Running_Strafe_Right"
+animation = &"movement_advanced/running_strafe_right"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_tkfay"]
-animation = &"movement_basic/Walking_C"
+animation = &"movement_basic/walking_c"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_doqlv"]
-animation = &"movement_basic/Running_B"
+animation = &"movement_basic/running_b"
 
 [sub_resource type="AnimationNodeBlendSpace2D" id="AnimationNodeBlendSpace2D_wo5gf"]
 blend_point_0/node = SubResource("AnimationNodeAnimation_gv4sl")
 blend_point_0/pos = Vector2(0, 0)
-blend_point_0/name = &"general_Idle_B"
+blend_point_0/name = &"general_idle_b"
 blend_point_1/node = SubResource("AnimationNodeAnimation_hsmyu")
 blend_point_1/pos = Vector2(0, -0.2)
-blend_point_1/name = &"movement_advanced_Walking_Backwards"
+blend_point_1/name = &"movement_advanced_walking_backwards"
 blend_point_2/node = SubResource("AnimationNodeAnimation_wh07r")
 blend_point_2/pos = Vector2(-1, 0)
-blend_point_2/name = &"movement_advanced_Running_Strafe_Left"
+blend_point_2/name = &"movement_advanced_running_strafe_left"
 blend_point_3/node = SubResource("AnimationNodeAnimation_ecw4k")
 blend_point_3/pos = Vector2(1, 0)
-blend_point_3/name = &"movement_advanced_Running_Strafe_Right"
+blend_point_3/name = &"movement_advanced_running_strafe_right"
 blend_point_4/node = SubResource("AnimationNodeAnimation_tkfay")
 blend_point_4/pos = Vector2(0, 0.4)
-blend_point_4/name = &"movement_basic_Walking_C"
+blend_point_4/name = &"movement_basic_walking_c"
 blend_point_5/node = SubResource("AnimationNodeAnimation_doqlv")
 blend_point_5/pos = Vector2(0, 1)
-blend_point_5/name = &"movement_basic_Running_B"
+blend_point_5/name = &"movement_basic_running_b"
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_kt1ep"]
 advance_mode = 2
@@ -334,16 +334,16 @@ states/movement/position = Vector2(394, 100)
 transitions = ["Start", "movement", SubResource("AnimationNodeStateMachineTransition_kt1ep"), "movement", "dodge", SubResource("AnimationNodeStateMachineTransition_slwqc"), "dodge", "movement", SubResource("AnimationNodeStateMachineTransition_ay7ru")]
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_14waw"]
-animation = &"general/Interact"
+animation = &"general/interact"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_88tbm"]
-animation = &"general/PickUp"
+animation = &"general/pick_up"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ouo3r"]
-animation = &"general/Throw"
+animation = &"general/throw"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_8b1n0"]
-animation = &"general/Use_Item"
+animation = &"general/use_item"
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_gv4sl"]
 
@@ -383,13 +383,13 @@ transitions = ["Start", "pick_up", SubResource("AnimationNodeStateMachineTransit
 graph_offset = Vector2(-141.29247, -24.606722)
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_mam14"]
-animation = &"movement_basic/Jump_Idle"
+animation = &"movement_basic/jump_idle"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_stehk"]
-animation = &"movement_basic/Jump_Land"
+animation = &"movement_basic/jump_land"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_4d126"]
-animation = &"movement_basic/Jump_Start"
+animation = &"movement_basic/jump_start"
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_xcpnp"]
 switch_mode = 2
@@ -418,45 +418,45 @@ transitions = ["movement_basic_jump_start", "movement_basic_jump_idle", SubResou
 graph_offset = Vector2(0, 34.794968)
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_q4c83"]
-animation = &"movement_advanced/Crawling"
+animation = &"movement_advanced/crawling"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_wo5gf"]
-animation = &"movement_advanced/Crouching"
+animation = &"movement_advanced/crouching"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_ys7oq"]
-animation = &"general/Idle_A"
+animation = &"general/idle_a"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_jl8b8"]
-animation = &"movement_basic/Walking_B"
+animation = &"movement_basic/walking_b"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_l8veq"]
-animation = &"movement_basic/Running_B"
+animation = &"movement_basic/running_b"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_0ejw6"]
-animation = &"movement_basic/Running_B"
+animation = &"movement_basic/running_b"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_txcdc"]
-animation = &"movement_basic/Running_B"
+animation = &"movement_basic/running_b"
 
 [sub_resource type="AnimationNodeBlendSpace1D" id="AnimationNodeBlendSpace1D_arcne"]
 blend_point_0/node = SubResource("AnimationNodeAnimation_ys7oq")
 blend_point_0/pos = 0.0
-blend_point_0/name = &"general_Idle_A"
+blend_point_0/name = &"general_idle_a"
 blend_point_1/node = SubResource("AnimationNodeAnimation_jl8b8")
 blend_point_1/pos = -0.2
-blend_point_1/name = &"movement_basic_Walking_B"
+blend_point_1/name = &"movement_basic_walking_b"
 blend_point_2/node = SubResource("AnimationNodeAnimation_l8veq")
 blend_point_2/pos = -1.0
-blend_point_2/name = &"movement_basic_Running_B"
+blend_point_2/name = &"movement_basic_running_b"
 blend_point_3/node = SubResource("AnimationNodeAnimation_0ejw6")
 blend_point_3/pos = 0.2
-blend_point_3/name = &"movement_basic_Running_B 2"
+blend_point_3/name = &"movement_basic_running_b 2"
 blend_point_4/node = SubResource("AnimationNodeAnimation_txcdc")
 blend_point_4/pos = 1.0
-blend_point_4/name = &"movement_basic_Running_B 3"
+blend_point_4/name = &"movement_basic_running_b 3"
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_f7tix"]
-animation = &"movement_advanced/Sneaking"
+animation = &"movement_advanced/sneaking"
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_bppch"]
 advance_mode = 2
@@ -565,7 +565,7 @@ states/jumping/position = Vector2(421, 283.27197)
 states/movement/node = SubResource("AnimationNodeStateMachine_q1oh0")
 states/movement/position = Vector2(421, 100)
 transitions = ["Attack", "Hit", SubResource("AnimationNodeStateMachineTransition_8b1n0"), "interactions", "Hit", SubResource("AnimationNodeStateMachineTransition_l8veq"), "movement", "jumping", SubResource("AnimationNodeStateMachineTransition_363ky"), "jumping", "movement", SubResource("AnimationNodeStateMachineTransition_854xe"), "interactions", "movement", SubResource("AnimationNodeStateMachineTransition_junma"), "movement", "interactions", SubResource("AnimationNodeStateMachineTransition_0iijr"), "movement", "focused", SubResource("AnimationNodeStateMachineTransition_bmuwa"), "focused", "movement", SubResource("AnimationNodeStateMachineTransition_bcmk1"), "movement", "Attack", SubResource("AnimationNodeStateMachineTransition_j6qtd"), "Attack", "movement", SubResource("AnimationNodeStateMachineTransition_gxv47"), "Hit", "movement", SubResource("AnimationNodeStateMachineTransition_u4g1k"), "movement", "Hit", SubResource("AnimationNodeStateMachineTransition_4t63r"), "Start", "movement", SubResource("AnimationNodeStateMachineTransition_88tbm")]
-graph_offset = Vector2(0, 19.87032)
+graph_offset = Vector2(0, -184.43092)
 
 [sub_resource type="AnimationNodeBlendTree" id="AnimationNodeBlendTree_1vivr"]
 graph_offset = Vector2(-420.7141, -15.83743)
@@ -577,32 +577,57 @@ node_connections = [&"output", 0, &"Movement"]
 transform = Transform3D(-1, 0, -8.742278e-08, 0, 1, 0, 8.742278e-08, 0, -1, 0, 0, 0)
 
 [node name="Skeleton3D" parent="Rig_Medium" parent_id_path=PackedInt32Array(563450643) index="0" unique_id=743004761]
-bones/1/position = Vector3(-2.3699435e-08, 0.27561605, 0.09940265)
-bones/1/rotation = Quaternion(-0.008085395, -1.1920538e-07, -9.638541e-10, 0.99996734)
-bones/2/rotation = Quaternion(0.2780648, 6.825205e-15, 1.9330914e-15, 0.9605623)
-bones/3/rotation = Quaternion(0.077488385, -1.3154533e-21, 1.3427109e-15, 0.99699324)
-bones/4/position = Vector3(0.2012122, 0.091169305, -0.051136695)
-bones/4/rotation = Quaternion(-0.71242076, 0.1256727, -0.4504832, 0.5231902)
-bones/5/rotation = Quaternion(-1.0674614e-08, -3.9591587e-08, -0.5577248, 0.8300259)
-bones/7/rotation = Quaternion(-0.35102892, -0.32489213, -0.258261, 0.83936)
-bones/8/rotation = Quaternion(0.10143516, -0.059989013, -0.70217955, 0.70217955)
-bones/9/position = Vector3(-0.2012122, 0.17709522, 0.05113668)
-bones/9/rotation = Quaternion(-0.73546445, 0.22058946, 0.54144, 0.34245455)
-bones/10/rotation = Quaternion(5.0488598e-08, 2.8362663e-08, 0.73639315, 0.6765539)
-bones/12/rotation = Quaternion(-0.36940563, 0.075870395, -0.16147983, 0.91198003)
-bones/13/position = Vector3(-4.5217305e-08, 0.09612501, -0.057499945)
-bones/13/rotation = Quaternion(0.101435125, 0.05998899, 0.70217955, 0.70217955)
-bones/14/rotation = Quaternion(-0.20769647, 2.965419e-22, -2.882369e-15, 0.97819334)
-bones/15/position = Vector3(-0.17094506, 0.11358726, 6.477187e-09)
-bones/15/rotation = Quaternion(0.84911853, 2.5227888e-07, -7.146217e-08, 0.52820235)
-bones/16/rotation = Quaternion(0.6085573, -5.478616e-08, 4.2262184e-07, 0.79351)
-bones/17/rotation = Quaternion(-0.45579308, 1.8691213e-07, -2.2620267e-07, 0.8900858)
-bones/18/rotation = Quaternion(4.1221454e-10, 0.9201981, -0.39145327, 4.7466866e-08)
-bones/19/position = Vector3(0.17094506, 0.11201081, 0.097478256)
-bones/19/rotation = Quaternion(0.92896014, -2.7803515e-07, -1.8049944e-08, -0.37017995)
-bones/20/rotation = Quaternion(0.4820071, 6.049306e-08, -3.3473708e-07, 0.8761673)
-bones/21/rotation = Quaternion(-0.8568715, -2.6042002e-07, -7.0073824e-08, 0.51553017)
-bones/22/rotation = Quaternion(4.317975e-08, 0.9181433, -0.3962488, 7.237708e-08)
+bones/1/position = Vector3(0, 0.38980284, 0)
+bones/1/rotation = Quaternion(0.0013108669, 0.043157715, 5.662971e-05, 0.9990674)
+bones/1/scale = Vector3(0.99999994, 1, 0.99999994)
+bones/2/rotation = Quaternion(0.0036181305, 2.749784e-09, 0.00031317733, 0.99999344)
+bones/2/scale = Vector3(1.0000001, 1, 1.0000001)
+bones/3/rotation = Quaternion(0.0017892849, 1.2835836e-09, 0.00015487654, 0.99999845)
+bones/3/scale = Vector3(1, 0.9999999, 1)
+bones/4/position = Vector3(0.21200737, 0.13413215, 8.216504e-08)
+bones/4/rotation = Quaternion(-0.53535396, -0.11263081, -0.7692507, 0.33009663)
+bones/4/scale = Vector3(0.9999993, 0.99999905, 0.9999998)
+bones/5/rotation = Quaternion(3.445024e-08, -5.709602e-08, -0.36454785, 0.9311847)
+bones/5/scale = Vector3(1.0000004, 0.9999998, 1)
+bones/6/rotation = Quaternion(1.514567e-08, -7.3584383e-09, 0.0266581, 0.99964464)
+bones/6/scale = Vector3(1.0000001, 1, 1)
+bones/7/rotation = Quaternion(-0.22154374, -0.34509817, 0.18287727, 0.8935221)
+bones/7/scale = Vector3(0.99999976, 1.0000001, 1.0000004)
+bones/8/position = Vector3(5.138494e-10, 0.096125126, -0.057500005)
+bones/8/rotation = Quaternion(0.00071501464, 0.00071503036, -0.70447713, 0.7097259)
+bones/8/scale = Vector3(1, 1, 1)
+bones/9/position = Vector3(-0.21200736, 0.13413227, 8.62731e-08)
+bones/9/rotation = Quaternion(-0.56219476, 0.042734794, 0.7342625, 0.3781127)
+bones/9/scale = Vector3(0.9999992, 0.9999988, 0.9999998)
+bones/10/rotation = Quaternion(2.1962826e-08, 5.201365e-08, 0.38077658, 0.9246671)
+bones/10/scale = Vector3(1.0000004, 0.99999976, 1.0000001)
+bones/11/rotation = Quaternion(2.249753e-10, 6.8246844e-09, -0.026658092, 0.99964464)
+bones/11/scale = Vector3(0.99999994, 0.99999994, 1)
+bones/12/rotation = Quaternion(-0.21187337, 0.3827959, -0.13778472, 0.8885902)
+bones/12/scale = Vector3(0.9999995, 0.99999994, 1.0000005)
+bones/13/position = Vector3(-1.5415026e-08, 0.096125185, -0.057500005)
+bones/13/rotation = Quaternion(0.00071501726, -0.0007150275, 0.70447713, 0.7097259)
+bones/13/scale = Vector3(1, 1.0000001, 1.0000001)
+bones/14/rotation = Quaternion(-0.0055844593, -0.031341266, -0.000307433, 0.9994931)
+bones/14/scale = Vector3(0.99999994, 1, 1)
+bones/15/position = Vector3(-0.17094508, 0.11358732, 1.557549e-08)
+bones/15/rotation = Quaternion(0.996736, -0.029946968, 0.03136083, 0.06809667)
+bones/15/scale = Vector3(0.9999999, 0.99999976, 1.0000008)
+bones/16/rotation = Quaternion(0.2949971, -6.274754e-08, 2.0282309e-07, 0.95549816)
+bones/16/scale = Vector3(0.99999994, 0.99999976, 0.99999994)
+bones/17/rotation = Quaternion(-0.57053155, 0.11436649, -0.01041628, 0.81320703)
+bones/17/scale = Vector3(0.99999976, 1.0000006, 0.9999992)
+bones/18/rotation = Quaternion(-8.934892e-05, 0.9202217, -0.3913977, 2.0290998e-05)
+bones/18/scale = Vector3(1.0000002, 0.9999979, 1.0000024)
+bones/19/position = Vector3(0.17094508, 0.1135872, 1.5994095e-08)
+bones/19/rotation = Quaternion(0.99152184, 0.057941165, 0.070750274, 0.09231375)
+bones/19/scale = Vector3(0.9999999, 0.9999997, 1.0000008)
+bones/20/rotation = Quaternion(0.28415948, 6.306109e-08, -1.9159064e-07, 0.95877707)
+bones/20/scale = Vector3(1.0000004, 0.99999994, 1.0000001)
+bones/21/rotation = Quaternion(-0.5418264, -0.113753185, 0.04378894, 0.8316051)
+bones/21/scale = Vector3(1.0000004, 1.0000007, 0.9999993)
+bones/22/rotation = Quaternion(4.75881e-06, 0.92024374, -0.39134577, -1.0102739e-06)
+bones/22/scale = Vector3(1.0000001, 0.9999975, 1.0000027)
 
 [node name="Knight_Helmet" parent="Rig_Medium/Skeleton3D" index="5" unique_id=1683002621]
 material_override = ExtResource("2_0cdg0")

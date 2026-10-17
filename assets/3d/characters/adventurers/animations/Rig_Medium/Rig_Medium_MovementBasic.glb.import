@@ -41,9 +41,9 @@ materials/extract_format=0
 materials/extract_path=""
 _subresources={
 "animations": {
-"Jump_Full_Long": {
+"jump_full_long": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Jump_Full_Long.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_full_long.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://c1rip4jn8cux0",
 "settings/loop_mode": 0,
@@ -2097,9 +2097,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Jump_Full_Short": {
+"jump_full_short": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Jump_Full_Short.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_full_short.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://0tdouj4sre5i",
 "settings/loop_mode": 0,
@@ -4153,9 +4153,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Jump_Idle": {
+"jump_idle": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Jump_Idle.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_idle.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://dtevfndce4ipy",
 "settings/loop_mode": 0,
@@ -6209,9 +6209,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Jump_Land": {
+"jump_land": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Jump_Land.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_land.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bvm88gr74nktp",
 "settings/loop_mode": 0,
@@ -8265,9 +8265,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Jump_Start": {
+"jump_start": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Jump_Start.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_start.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bubiyyn0q0807",
 "settings/loop_mode": 0,
@@ -10321,9 +10321,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Running_A": {
+"running_a": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Running_A.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/running_a.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://drou7a7kccxg7",
 "settings/loop_mode": 0,
@@ -12377,9 +12377,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Running_B": {
+"running_b": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Running_B.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/running_b.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://cylvujiosmn4a",
 "settings/loop_mode": 0,
@@ -14433,9 +14433,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Walking_A": {
+"walking_a": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Walking_A.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/walking_a.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://mshcj0a1n23i",
 "settings/loop_mode": 0,
@@ -16489,9 +16489,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Walking_B": {
+"walking_b": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Walking_B.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/walking_b.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://chqqtwfksqkqv",
 "settings/loop_mode": 0,
@@ -18545,9 +18545,9 @@ _subresources={
 "slice_99/start_frame": 0,
 "slices/amount": 0
 },
-"Walking_C": {
+"walking_c": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/Walking_C.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/walking_c.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://be4nk0pf50h",
 "settings/loop_mode": 0,
