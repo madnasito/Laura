@@ -1,5 +1,10 @@
 extends CharacterBody3D
 
+
+@onready var animation_tree: AnimationTree = %Model/AnimationTree
+@onready var anim_playback: AnimationNodeStateMachinePlayback = animation_tree["parameters/Movement/playback"]
+
+
 @export_group("Camera")
 @export_range(0.0, 1.0) var mouse_sensitivity := 0.25
 
@@ -11,11 +16,14 @@ extends CharacterBody3D
 
 @onready var _camera_pivot: SpringArm3D = %CameraPivot
 @onready var _camera:Camera3D = %Camera3D
-#@onready var _skin = %Knight
+#@onready var _skin = %Model
 
 var _camera_input_direction := Vector2.ZERO
 var _last_movement_direction := Vector3.BACK
 var _gravity := -30.0
+
+func _physics_process(delta: float) -> void:
+	_handle_movement(delta)
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("left_click"):
@@ -32,7 +40,7 @@ func _unhandled_input(event: InputEvent) -> void:
 		_camera_input_direction = event.get_screen_relative() * mouse_sensitivity
 		_camera_input_direction.y *= -1
 	
-func _movement(delta: float) -> void:
+func _handle_movement(delta: float) -> void:
 	_camera_pivot.rotation.x += _camera_input_direction.y * delta
 	_camera_pivot.rotation.x = clamp(_camera_pivot.rotation.x, -PI / 6.0, PI / 3.0)
 	_camera_pivot.rotation.y -= _camera_input_direction.x * delta
@@ -63,4 +71,4 @@ func _movement(delta: float) -> void:
 	if move_direction.length() > 0.2:
 		_last_movement_direction = move_direction
 	var target_angle := Vector3.BACK.signed_angle_to(_last_movement_direction, Vector3.UP)
-	$Knight.global_rotation.y = lerp_angle($Knight.rotation.y, target_angle, rotation_speed * delta)
+	$Model.global_rotation.y = lerp_angle($Model.rotation.y, target_angle, rotation_speed * delta)

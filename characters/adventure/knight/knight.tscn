@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://ju1rt6u5m4st"]
+
+[ext_resource type="PackedScene" uid="uid://bm3wacejthlon" path="res://characters/adventure/adventure_character.tscn" id="1_6o4e5"]
+[ext_resource type="PackedScene" uid="uid://vonh07w4uhgs" path="res://characters/models/knight_model.tscn" id="2_d8ef7"]
+[ext_resource type="Script" uid="uid://3u25qhdmyprw" path="res://characters/adventure/knight/knight.gd" id="2_yayu7"]
+
+[node name="Knight" unique_id=2115637089 instance=ExtResource("1_6o4e5")]
+script = ExtResource("2_yayu7")
+
+[node name="Model" parent="." index="2" unique_id=58326331 instance=ExtResource("2_d8ef7")]
+unique_name_in_owner = true
