@@ -4,6 +4,7 @@ extends CharacterBody3D
 @onready var animation_tree: AnimationTree = %Model/AnimationTree
 @onready var anim_playback: AnimationNodeStateMachinePlayback = animation_tree["parameters/Movement/playback"]
 
+@onready var animator: CharacterAnimator = find_child("AnimationTree", true, false)
 
 @export_group("Camera")
 @export_range(0.0, 1.0) var mouse_sensitivity := 0.25
@@ -24,6 +25,9 @@ var _gravity := -30.0
 
 func _physics_process(delta: float) -> void:
 	_handle_movement(delta)
+	if animator:
+		animator.update_movement(velocity, move_speed, is_on_floor())
+
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("left_click"):

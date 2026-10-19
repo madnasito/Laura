@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bm3wacejthlon"]
 
-[ext_resource type="Script" uid="uid://bwswr0vc0w06k" path="res://characters/adventure/adventure_character.gd" id="1_mwby3"]
+[ext_resource type="Script" uid="uid://bwswr0vc0w06k" path="res://characters/adventure/scripts/adventure_character.gd" id="1_mdhv6"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1vivr"]
 radius = 0.578125
@@ -8,7 +8,7 @@ height = 2.386963
 
 [node name="AdventureCharacter" type="CharacterBody3D" unique_id=2115637089]
 collision_mask = 3
-script = ExtResource("1_mwby3")
+script = ExtResource("1_mdhv6")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1132495085]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2043663, 0)
