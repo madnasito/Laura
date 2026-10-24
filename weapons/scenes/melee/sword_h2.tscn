@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://celiaqd2lh4xr"]
+
+[ext_resource type="PackedScene" uid="uid://dd3e673mx1fyl" path="res://assets/3d/objects/sword_2handed_color.gltf" id="1_xf67m"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0vk1x"]
+size = Vector3(0.32739258, 1.1225586, 0.12780762)
+
+[node name="SwordH3" type="Node3D" unique_id=44405106]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1250108276]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=733422448]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0057373047, 0.8407332, 0.0033569336)
+shape = SubResource("BoxShape3D_0vk1x")
+disabled = true
+
+[node name="sword_2handed_color2" parent="." unique_id=1265157060 instance=ExtResource("1_xf67m")]
