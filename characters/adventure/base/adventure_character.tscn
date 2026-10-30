@@ -1,7 +1,6 @@
 [gd_scene format=3 uid="uid://bm3wacejthlon"]
 
 [ext_resource type="Script" uid="uid://bwswr0vc0w06k" path="res://characters/adventure/scripts/adventure_character.gd" id="1_mdhv6"]
-[ext_resource type="Script" uid="uid://bn3ee3q6rkyfs" path="res://weapons/scripts/weapon_holder.gd" id="2_jko17"]
 
 [sub_resource type="CapsuleShape3D" id="CapsuleShape3D_1vivr"]
 radius = 0.578125
@@ -25,7 +24,3 @@ spring_length = 6.0
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.3369412, 0)
 current = true
-
-[node name="WeaponHolder" type="Node3D" parent="." unique_id=12479764]
-script = ExtResource("2_jko17")
-metadata/_custom_type_script = "uid://bn3ee3q6rkyfs"

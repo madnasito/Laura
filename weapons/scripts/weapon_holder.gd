@@ -23,10 +23,12 @@ func equip(weapon_scene: PackedScene, data: WeaponData) -> void:
 	weapon_changed.emit(weapon_data)
 ## Llamado desde Call Method Track del AnimationPlayer
 func activate_hitbox() -> void:
+	print('active hitbox')
 	var hitbox := current_weapon_instance.find_child("HitboxArea", false) as Area3D
 	if hitbox:
 		hitbox.monitoring = true
 func deactivate_hitbox() -> void:
+	print('deactive hitbox')
 	var hitbox := current_weapon_instance.find_child("HitboxArea", false) as Area3D
 	if hitbox:
 		hitbox.monitoring = false

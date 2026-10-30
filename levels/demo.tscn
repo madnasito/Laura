@@ -82,3 +82,36 @@ top_level = true
 metadata/_edit_lock_ = true
 
 [node name="Knight" parent="." index="3" unique_id=2115637089 instance=ExtResource("2_k4nkg")]
+
+[node name="Skeleton3D" parent="Knight/Model/Rig_Medium" parent_id_path=PackedInt32Array(2115637089, 58326331, 563450643) index="0" unique_id=743004761]
+bones/1/position = Vector3(0, 0.3846174, 0)
+bones/1/rotation = Quaternion(0.0046506803, 0.042972326, 0.00016361721, 0.9990655)
+bones/2/rotation = Quaternion(0.012343278, 0.0004726837, 0.0010578465, 0.99992317)
+bones/3/rotation = Quaternion(-0.0059630587, 4.9882787e-09, -0.00051614904, 0.99998206)
+bones/4/position = Vector3(0.21200737, 0.13409849, -0.00017313198)
+bones/4/rotation = Quaternion(-0.53954285, -0.10175412, -0.7625726, 0.34208605)
+bones/5/rotation = Quaternion(-5.42042e-10, -6.043878e-08, -0.37859392, 0.92556286)
+bones/7/rotation = Quaternion(-0.22018982, -0.34242377, 0.17618299, 0.89622647)
+bones/8/rotation = Quaternion(0.0022891639, 0.002128459, -0.69867164, 0.7154356)
+bones/9/position = Vector3(-0.21200736, 0.13416594, 0.00017330037)
+bones/9/rotation = Quaternion(-0.5669702, 0.03323963, 0.7266918, 0.3864699)
+bones/10/rotation = Quaternion(2.0263784e-08, 3.0964685e-08, 0.39225724, 0.91985565)
+bones/12/rotation = Quaternion(-0.20974462, 0.37969285, -0.13060361, 0.89150625)
+bones/13/rotation = Quaternion(0.0022013895, -0.0025554397, 0.6970546, 0.71701014)
+bones/14/rotation = Quaternion(-0.01558437, -0.031672955, -0.0008034325, 0.9993764)
+bones/15/position = Vector3(-0.17094508, 0.11356066, -0.00042076828)
+bones/15/rotation = Quaternion(0.99524844, -0.030934185, 0.030889144, 0.08700306)
+bones/16/rotation = Quaternion(0.34100467, -6.556107e-08, 2.3716363e-07, 0.94006157)
+bones/17/rotation = Quaternion(-0.59448725, 0.11343327, -0.014534489, 0.7959312)
+bones/18/rotation = Quaternion(-8.896539e-05, 0.920223, -0.39139467, 2.0204028e-05)
+bones/19/position = Vector3(0.17094508, 0.1135872, 0.00042250272)
+bones/19/rotation = Quaternion(0.9891324, 0.057175763, 0.07125168, 0.11520099)
+bones/20/rotation = Quaternion(0.33183405, 6.57802e-08, -2.1931419e-07, 0.94333786)
+bones/21/rotation = Quaternion(-0.56801987, -0.11182283, 0.04795066, 0.8139716)
+bones/22/rotation = Quaternion(-5.0115653e-07, 0.9202353, -0.39136583, 1.650066e-07)
+
+[node name="BoneAttachment3D" parent="Knight/Model/Rig_Medium/Skeleton3D" index="9" unique_id=1273149666]
+transform = Transform3D(-0.00129617, -0.26292434, -0.9648158, -0.99971586, -0.022575604, 0.0074962964, -0.023752598, 0.9645516, -0.26282048, -0.4247106, 0.53078085, 0.081938416)
+
+[editable path="Knight"]
+[editable path="Knight/Model"]
