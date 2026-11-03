@@ -45,9 +45,12 @@ bones/20/rotation = Quaternion(0.32599998, 6.2190274e-08, -2.2417983e-07, 0.9453
 bones/21/rotation = Quaternion(-0.56496686, -0.11205555, 0.047292415, 0.8161002)
 bones/22/rotation = Quaternion(2.4261618e-08, 0.9202348, -0.39136684, 5.6456752e-08)
 
-[node name="BoneAttachment3D" parent="Model/Rig_Medium/Skeleton3D" index="9" unique_id=1273149666]
-transform = Transform3D(-0.0012321793, -0.26305157, -0.9647812, -0.99978954, -0.01936897, 0.00655898, -0.02041256, 0.96458673, -0.26297247, -0.4246111, 0.5312488, 0.08129414)
+[node name="BoneAttachmentRightHand" parent="Model/Rig_Medium/Skeleton3D" index="9" unique_id=1273149666]
+transform = Transform3D(-0.001232625, -0.26305148, -0.9647806, -0.99978995, -0.019369131, 0.0065586832, -0.020412516, 0.9645871, -0.26297265, -0.4246113, 0.53124857, 0.081294104)
 visible = false
+
+[node name="BoneAttachmentLeftHand" parent="Model/Rig_Medium/Skeleton3D" index="10" unique_id=1887141810]
+transform = Transform3D(-0.0005970821, 0.26126882, 0.9652654, 0.9997845, -0.019839687, 0.005988838, 0.020715402, 0.9650618, -0.26120076, 0.4259425, 0.5332954, 0.08424437)
 
 [node name="AnimationPlayer" parent="Model" index="1" unique_id=581732960]
 libraries/ = SubResource("AnimationLibrary_8881j")
