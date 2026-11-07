@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 
 @onready var animation_tree: AnimationTree = %Model/AnimationTree
-#@onready var anim_playback: AnimationNodeStateMachinePlayback = animation_tree["parameters/Movement/playback"]
+@onready var anim_playback: AnimationNodeStateMachinePlayback = animation_tree["parameters/Main/playback"]
 
 @onready var animator: CharacterAnimator = find_child("AnimationTree", true, false)
 
@@ -23,11 +23,12 @@ var _camera_input_direction := Vector2.ZERO
 var _last_movement_direction := Vector3.BACK
 var _gravity := -30.0
 
+func _ready() -> void:
+	if animator:
+		animator.character = self
+
 func _physics_process(delta: float) -> void:
 	_handle_movement(delta)
-	if animator:
-		animator.update_movement(velocity, move_speed, is_on_floor())
-
 
 func _input(event: InputEvent) -> void:
 	if event.is_action_pressed("left_click"):
