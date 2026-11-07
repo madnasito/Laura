@@ -20,7 +20,7 @@ var is_hit := false
 var is_dead := false
 
 func _ready() -> void:
-	playback = get("parameters/Movement/playback")
+	playback = get("parameters/Main/playback")
 
 func _physics_process(delta: float) -> void:
 	if not character:
@@ -40,7 +40,10 @@ func _physics_process(delta: float) -> void:
 	var is_moving = is_on_floor and current_speed > 0.1
 	var max_speed: float = character.get("move_speed") if "move_speed" in character else 8.0
 	speed_ratio = clampf(current_speed / max_speed, 0.0, 1.0)
-	set("parameters/Movement/movement/movement/blend_position", speed_ratio)
+	set("parameters/Main/movement/movement/blend_position", speed_ratio)
+
+	set("parameters/Main/conditions/in_air", not is_on_floor)
+	set("parameters/Main/jumping/conditions/on_ground", is_on_floor)
 	
 	print('is_on_floor: ', is_on_floor)
 	print('is_jumping: ', is_jumping)
@@ -52,3 +55,24 @@ func _physics_process(delta: float) -> void:
 	print('is_blocking: ', is_blocking)
 	print('is_hit: ', is_hit)
 	print('is_dead: ', is_dead)
+	
+	# ground and air conditions
+	set("parameters/conditions/on_ground", is_on_floor)
+	set("parameters/conditions/in_air", not is_on_floor)
+	set("parameters/conditions/is_jumping", not is_on_floor and vertical_speed > 0.1)
+	set("parameters/conditions/is_falling", not is_on_floor and vertical_speed <= 0.1)
+
+
+# Combat State Setters (called by Knight or Input)
+
+func set_blocking(active: bool) -> void:
+	set("parameters/conditions/is_blocking", active)
+	set("parameters/conditions/is_not_blocking", not active)
+func start_attack() -> void:
+	set("parameters/conditions/is_attacking", true)
+func reset_attack() -> void:
+	set("parameters/conditions/is_attacking", false)
+func trigger_hit() -> void:
+	set("parameters/conditions/is_hit", true)
+func reset_hit() -> void:
+	set("parameters/conditions/is_hit", false)
