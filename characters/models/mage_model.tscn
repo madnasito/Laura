@@ -1,0 +1,216 @@
+[gd_scene format=3 uid="uid://b6l8vos82idfo"]
+
+[ext_resource type="PackedScene" uid="uid://disiwn4rwwkt5" path="res://assets/3d/characters/adventurers/Mage.glb" id="1_46y6g"]
+[ext_resource type="Animation" uid="uid://dfujvu07dgdbt" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/death_a.res" id="2_3jfc5"]
+[ext_resource type="Animation" uid="uid://dlvqmcx34u1eu" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/death_a_pose.res" id="3_rn0nv"]
+[ext_resource type="Animation" uid="uid://dgwxvy4t255s6" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/death_b.res" id="4_5fb1x"]
+[ext_resource type="Animation" uid="uid://cmnbq2eff0gf8" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/death_b_pose.res" id="5_hp6ag"]
+[ext_resource type="Animation" uid="uid://krncyq625rka" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/hit_a.res" id="6_kksbx"]
+[ext_resource type="Animation" uid="uid://ja0cy4lx8g2p" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/hit_b.res" id="7_f7rdn"]
+[ext_resource type="Animation" uid="uid://cnfypo3qs8oko" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/idle_a.res" id="8_cnybt"]
+[ext_resource type="Animation" uid="uid://b8wvvtklg83om" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/idle_b.res" id="9_l1h3r"]
+[ext_resource type="Animation" uid="uid://bc5hmismtaij0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/interact.res" id="10_eqrq0"]
+[ext_resource type="Animation" uid="uid://b55moxfu42ham" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/pick_up.res" id="11_ofrnm"]
+[ext_resource type="Animation" uid="uid://bdsft4fy40sh6" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/spawn_air.res" id="12_yn7aq"]
+[ext_resource type="Animation" uid="uid://b6ms13e65ihkq" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/spawn_ground.res" id="13_mke7r"]
+[ext_resource type="Animation" uid="uid://dikojx10hqluj" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/throw.res" id="14_jw42h"]
+[ext_resource type="Animation" uid="uid://2dltvu3fahy3" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/general/use_item.res" id="15_vr1vh"]
+[ext_resource type="Animation" uid="uid://b54kwrvj8oore" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_1h_attack_chop.res" id="16_6bsmn"]
+[ext_resource type="Animation" uid="uid://wr5pnbs1rx8o" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_1h_attack_jump_chop.res" id="17_md1bg"]
+[ext_resource type="Animation" uid="uid://c5no3w6fk6ce" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_1h_attack_slice_diagonal.res" id="18_jmql0"]
+[ext_resource type="Animation" uid="uid://du16i2nqsal50" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_1h_attack_slice_horizontal.res" id="19_77q4a"]
+[ext_resource type="Animation" uid="uid://dquroaj8flfm0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_1h_attack_stab.res" id="20_nw5am"]
+[ext_resource type="Animation" uid="uid://1y2u1cln76ge" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_attack_chop.res" id="21_07gj0"]
+[ext_resource type="Animation" uid="uid://df4a0mqd8wi6r" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_attack_slice.res" id="22_5pwm0"]
+[ext_resource type="Animation" uid="uid://bc4idn5spbbj2" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_attack_spin.res" id="23_uwu54"]
+[ext_resource type="Animation" uid="uid://cpc6b82ag5k4r" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_attack_spinning.res" id="24_7b4cb"]
+[ext_resource type="Animation" uid="uid://bricdbnfhqaec" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_attack_stab.res" id="25_11glt"]
+[ext_resource type="Animation" uid="uid://dn26siy7rcks5" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_2h_idle.res" id="26_bopwd"]
+[ext_resource type="Animation" uid="uid://dbuagc2ttyj37" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_block.res" id="27_drbtv"]
+[ext_resource type="Animation" uid="uid://bhe157eihqoga" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_block_attack.res" id="28_q2rvi"]
+[ext_resource type="Animation" uid="uid://cun7rwpi0surk" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_block_hit.res" id="29_70dim"]
+[ext_resource type="Animation" uid="uid://cp40qcspwfjqu" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_blocking.res" id="30_c6hxn"]
+[ext_resource type="Animation" uid="uid://cwkkbfmbs56fo" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_dualwield_attack_chop.res" id="31_kxbnp"]
+[ext_resource type="Animation" uid="uid://belok2wadu4vn" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_dualwield_attack_slice.res" id="32_klb2p"]
+[ext_resource type="Animation" uid="uid://c61gkbiuwqya6" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_dualwield_attack_stab.res" id="33_q7ict"]
+[ext_resource type="Animation" uid="uid://ks1m08kdt4gm" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_unarmed_attack_kick.res" id="34_dev0v"]
+[ext_resource type="Animation" uid="uid://cjhmm6tewlgkd" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_unarmed_attack_punch_a.res" id="35_bbeaq"]
+[ext_resource type="Animation" uid="uid://dvvpi423jsu1i" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/melee/melee_unarmed_idle.res" id="36_o43bv"]
+[ext_resource type="Animation" uid="uid://calvpjvscfe1r" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/crawling.res" id="37_3htot"]
+[ext_resource type="Animation" uid="uid://rxt2wj4i4ogj" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/crouching.res" id="38_536gi"]
+[ext_resource type="Animation" uid="uid://h2gir3d86lb0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_backward.res" id="39_tr2ka"]
+[ext_resource type="Animation" uid="uid://586o5q7disng" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_forward.res" id="40_xs2je"]
+[ext_resource type="Animation" uid="uid://bqrwi8h4j3g64" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_left.res" id="41_0vah3"]
+[ext_resource type="Animation" uid="uid://ctd58bpaqta61" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/dodge_right.res" id="42_1c601"]
+[ext_resource type="Animation" uid="uid://0exa8y0h84so" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_holding_bow.res" id="43_jxqk7"]
+[ext_resource type="Animation" uid="uid://cyk7ixuk8qqev" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_holding_rifle.res" id="44_e4kwn"]
+[ext_resource type="Animation" uid="uid://tjcpjkp3qy32" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_strafe_left.res" id="45_6g3d8"]
+[ext_resource type="Animation" uid="uid://bnx1a2up8v3jx" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/running_strafe_right.res" id="46_6lkbk"]
+[ext_resource type="Animation" uid="uid://bco767k1lwemo" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/sneaking.res" id="47_m3twy"]
+[ext_resource type="Animation" uid="uid://bbh6h2iyjjyav" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_advanced/walking_backwards.res" id="48_035e1"]
+[ext_resource type="Animation" uid="uid://c1rip4jn8cux0" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_full_long.res" id="49_m53rx"]
+[ext_resource type="Animation" uid="uid://0tdouj4sre5i" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_full_short.res" id="50_11lpx"]
+[ext_resource type="Animation" uid="uid://dtevfndce4ipy" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_idle.res" id="51_84x3w"]
+[ext_resource type="Animation" uid="uid://bvm88gr74nktp" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_land.res" id="52_rq06q"]
+[ext_resource type="Animation" uid="uid://bubiyyn0q0807" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/jump_start.res" id="53_sbnwi"]
+[ext_resource type="Animation" uid="uid://drou7a7kccxg7" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/running_a.res" id="54_w147a"]
+[ext_resource type="Animation" uid="uid://cylvujiosmn4a" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/running_b.res" id="55_qaiu3"]
+[ext_resource type="Animation" uid="uid://mshcj0a1n23i" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/walking_a.res" id="56_d0xk3"]
+[ext_resource type="Animation" uid="uid://chqqtwfksqkqv" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/walking_b.res" id="57_l04ag"]
+[ext_resource type="Animation" uid="uid://be4nk0pf50h" path="res://assets/3d/characters/adventurers/animations/Rig_Medium/movement_basic/walking_c.res" id="58_qmyxd"]
+[ext_resource type="AnimationNodeBlendTree" uid="uid://beg11pv2ln15f" path="res://characters/adventure/base/base_adventure_character_animation_tree.tres" id="59_rn0nv"]
+[ext_resource type="Script" uid="uid://bn3ee3q6rkyfs" path="res://weapons/scripts/weapon_holder.gd" id="60_34at6"]
+[ext_resource type="PackedScene" uid="uid://bdgmxg21mrfmh" path="res://weapons/scenes/wand/wand.tscn" id="61_rn0nv"]
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_rpigl"]
+_data = {
+&"death_a": ExtResource("2_3jfc5"),
+&"death_a_pose": ExtResource("3_rn0nv"),
+&"death_b": ExtResource("4_5fb1x"),
+&"death_b_pose": ExtResource("5_hp6ag"),
+&"hit_a": ExtResource("6_kksbx"),
+&"hit_b": ExtResource("7_f7rdn"),
+&"idle_a": ExtResource("8_cnybt"),
+&"idle_b": ExtResource("9_l1h3r"),
+&"interact": ExtResource("10_eqrq0"),
+&"pick_up": ExtResource("11_ofrnm"),
+&"spawn_air": ExtResource("12_yn7aq"),
+&"spawn_ground": ExtResource("13_mke7r"),
+&"throw": ExtResource("14_jw42h"),
+&"use_item": ExtResource("15_vr1vh")
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_newnt"]
+_data = {
+&"melee_1h_attack_chop": ExtResource("16_6bsmn"),
+&"melee_1h_attack_jump_chop": ExtResource("17_md1bg"),
+&"melee_1h_attack_slice_diagonal": ExtResource("18_jmql0"),
+&"melee_1h_attack_slice_horizontal": ExtResource("19_77q4a"),
+&"melee_1h_attack_stab": ExtResource("20_nw5am"),
+&"melee_2h_attack_chop": ExtResource("21_07gj0"),
+&"melee_2h_attack_slice": ExtResource("22_5pwm0"),
+&"melee_2h_attack_spin": ExtResource("23_uwu54"),
+&"melee_2h_attack_spinning": ExtResource("24_7b4cb"),
+&"melee_2h_attack_stab": ExtResource("25_11glt"),
+&"melee_2h_idle": ExtResource("26_bopwd"),
+&"melee_block": ExtResource("27_drbtv"),
+&"melee_block_attack": ExtResource("28_q2rvi"),
+&"melee_block_hit": ExtResource("29_70dim"),
+&"melee_blocking": ExtResource("30_c6hxn"),
+&"melee_dualwield_attack_chop": ExtResource("31_kxbnp"),
+&"melee_dualwield_attack_slice": ExtResource("32_klb2p"),
+&"melee_dualwield_attack_stab": ExtResource("33_q7ict"),
+&"melee_unarmed_attack_kick": ExtResource("34_dev0v"),
+&"melee_unarmed_attack_punch_a": ExtResource("35_bbeaq"),
+&"melee_unarmed_idle": ExtResource("36_o43bv")
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_4pk3q"]
+_data = {
+&"crawling": ExtResource("37_3htot"),
+&"crouching": ExtResource("38_536gi"),
+&"dodge_backward": ExtResource("39_tr2ka"),
+&"dodge_forward": ExtResource("40_xs2je"),
+&"dodge_left": ExtResource("41_0vah3"),
+&"dodge_right": ExtResource("42_1c601"),
+&"running_holding_bow": ExtResource("43_jxqk7"),
+&"running_holding_rifle": ExtResource("44_e4kwn"),
+&"running_strafe_left": ExtResource("45_6g3d8"),
+&"running_strafe_right": ExtResource("46_6lkbk"),
+&"sneaking": ExtResource("47_m3twy"),
+&"walking_backwards": ExtResource("48_035e1")
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ekmrx"]
+_data = {
+&"jump_full_long": ExtResource("49_m53rx"),
+&"jump_full_short": ExtResource("50_11lpx"),
+&"jump_idle": ExtResource("51_84x3w"),
+&"jump_land": ExtResource("52_rq06q"),
+&"jump_start": ExtResource("53_sbnwi"),
+&"running_a": ExtResource("54_w147a"),
+&"running_b": ExtResource("55_qaiu3"),
+&"walking_a": ExtResource("56_d0xk3"),
+&"walking_b": ExtResource("57_l04ag"),
+&"walking_c": ExtResource("58_qmyxd")
+}
+
+[node name="MageModel" unique_id=901888358 instance=ExtResource("1_46y6g")]
+
+[node name="Skeleton3D" parent="Rig_Medium" parent_id_path=PackedInt32Array(671622450) index="0" unique_id=51587225]
+bones/1/position = Vector3(0, 0.3918181, 0)
+bones/1/rotation = Quaternion(8.030934e-05, 0.04315775, 3.4717996e-06, 0.9990683)
+bones/1/scale = Vector3(0.99999994, 1, 0.99999994)
+bones/2/position = Vector3(-0.17094508, 0.11358732, 1.557549e-08)
+bones/2/rotation = Quaternion(0.9972922, -0.029483804, 0.031519942, 0.059545066)
+bones/2/scale = Vector3(0.9999999, 0.99999976, 1.0000008)
+bones/3/rotation = Quaternion(0.27516377, -6.7958666e-08, 1.9590972e-07, 0.96139747)
+bones/3/scale = Vector3(0.99999994, 0.99999976, 0.99999994)
+bones/4/rotation = Quaternion(-0.55967134, 0.11450557, -0.008725139, 0.8207195)
+bones/4/scale = Vector3(0.99999976, 1.0000006, 0.9999992)
+bones/5/rotation = Quaternion(-8.934892e-05, 0.9202217, -0.3913977, 2.0290998e-05)
+bones/5/scale = Vector3(1.0000002, 0.9999979, 1.0000024)
+bones/6/rotation = Quaternion(0.0003954287, 2.05036e-09, 3.4227425e-05, 1)
+bones/6/scale = Vector3(1.0000001, 1, 1.0000001)
+bones/7/rotation = Quaternion(0.004698782, 4.8683506e-09, 0.00040671605, 0.999989)
+bones/7/scale = Vector3(1, 0.9999999, 1)
+bones/8/position = Vector3(0.21200737, 0.13413215, 8.216504e-08)
+bones/8/rotation = Quaternion(-0.5337679, -0.11641378, -0.771526, 0.32601756)
+bones/8/scale = Vector3(0.9999993, 0.99999905, 0.9999998)
+bones/9/rotation = Quaternion(3.6699996e-09, -6.592072e-08, -0.35911703, 0.93329257)
+bones/9/scale = Vector3(1.0000004, 0.9999998, 1)
+bones/10/rotation = Quaternion(1.514567e-08, -7.3584383e-09, 0.0266581, 0.99964464)
+bones/10/scale = Vector3(1.0000001, 1, 1)
+bones/11/rotation = Quaternion(-0.22210366, -0.3457768, 0.18450932, 0.8927848)
+bones/11/scale = Vector3(0.99999976, 1.0000001, 1.0000004)
+bones/12/position = Vector3(5.138494e-10, 0.096125126, -0.057500005)
+bones/12/rotation = Quaternion(7.814099e-05, 7.8152734e-05, -0.70682, 0.7073935)
+bones/12/scale = Vector3(1, 1, 1)
+bones/13/rotation = Quaternion(-0.0037778143, -0.031341534, -0.00020797504, 0.9995016)
+bones/13/scale = Vector3(0.99999994, 1, 1)
+bones/14/position = Vector3(-0.21200736, 0.13413227, 8.62731e-08)
+bones/14/rotation = Quaternion(-0.5607656, 0.046476193, 0.7366991, 0.37504178)
+bones/14/scale = Vector3(0.9999992, 0.9999988, 0.9999998)
+bones/15/rotation = Quaternion(7.700907e-09, 5.4297853e-08, 0.3767601, 0.92631096)
+bones/15/scale = Vector3(1.0000004, 0.99999976, 1.0000001)
+bones/16/rotation = Quaternion(2.249753e-10, 6.8246844e-09, -0.026658092, 0.99964464)
+bones/16/scale = Vector3(0.99999994, 0.99999994, 1)
+bones/17/rotation = Quaternion(-0.21236551, 0.38395447, -0.13995524, 0.8876331)
+bones/17/scale = Vector3(0.9999995, 0.99999994, 1.0000005)
+bones/18/position = Vector3(-1.5415026e-08, 0.096125185, -0.057500005)
+bones/18/rotation = Quaternion(7.8138655e-05, -7.8155055e-05, 0.70682, 0.7073935)
+bones/18/scale = Vector3(1, 1.0000001, 1.0000001)
+bones/19/position = Vector3(0.17094508, 0.1135872, 1.5994095e-08)
+bones/19/rotation = Quaternion(0.9923096, 0.058135238, 0.07044912, 0.083540484)
+bones/19/scale = Vector3(0.9999999, 0.9999997, 1.0000008)
+bones/20/rotation = Quaternion(0.26409194, 6.150086e-08, -1.7697889e-07, 0.96449757)
+bones/20/scale = Vector3(1.0000004, 0.99999994, 1.0000001)
+bones/21/rotation = Quaternion(-0.53079766, -0.114340566, 0.04191354, 0.8387034)
+bones/21/scale = Vector3(1.0000004, 1.0000007, 0.9999993)
+bones/22/rotation = Quaternion(1.3233165e-05, 0.920257, -0.39131477, -2.9361881e-06)
+bones/22/scale = Vector3(1.0000001, 0.9999975, 1.0000027)
+
+[node name="BoneAttachmentRightHand" type="BoneAttachment3D" parent="Rig_Medium/Skeleton3D" index="8" unique_id=2082032090]
+transform = Transform3D(-4.242423e-05, -0.26271704, -0.9648731, -0.99999875, -0.0006722801, 0.00022809561, -0.0007089974, 0.9648721, -0.2627168, -0.4241356, 0.53539985, 0.081593655)
+bone_name = "handslot.r"
+bone_idx = 18
+use_external_skeleton = true
+external_skeleton = NodePath("..")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="." index="1" unique_id=1115548418]
+libraries/general = SubResource("AnimationLibrary_rpigl")
+libraries/melee = SubResource("AnimationLibrary_newnt")
+libraries/movement_advanced = SubResource("AnimationLibrary_4pk3q")
+libraries/movement_basic = SubResource("AnimationLibrary_ekmrx")
+
+[node name="AnimationTree" type="AnimationTree" parent="." index="2" unique_id=1076318698]
+tree_root = ExtResource("59_rn0nv")
+anim_player = NodePath("../AnimationPlayer")
+parameters/Movement/focused/dodge/blend_position = Vector2(0, 0)
+parameters/Movement/focused/movement/blend_position = Vector2(0, 0)
+parameters/Movement/movement/movement/blend_position = 0.0
+
+[node name="WeaponHolder" type="Node3D" parent="." index="3" unique_id=872109887]
+script = ExtResource("60_34at6")
+starting_weapon = ExtResource("61_rn0nv")
+metadata/_custom_type_script = "uid://bn3ee3q6rkyfs"

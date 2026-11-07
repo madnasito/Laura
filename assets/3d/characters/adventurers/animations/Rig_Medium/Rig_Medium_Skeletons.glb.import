@@ -4,12 +4,12 @@ importer="animation_library"
 importer_version=1
 type="AnimationLibrary"
 uid="uid://do2e2hbixdaqe"
-path="res://.godot/imported/Rig_Medium_Special.glb-e6b9c9f711c63c17bedfaca4e671313f.res"
+path="res://.godot/imported/Rig_Medium_Skeletons.glb-de0bbf8d72cd3d42427c3aef9bb9f654.res"
 
 [deps]
 
-source_file="res://assets/3d/characters/adventurers/animations/Rig_Medium/Rig_Medium_Special.glb"
-dest_files=["res://.godot/imported/Rig_Medium_Special.glb-e6b9c9f711c63c17bedfaca4e671313f.res"]
+source_file="res://assets/3d/characters/adventurers/animations/Rig_Medium/Rig_Medium_Skeletons.glb"
+dest_files=["res://.godot/imported/Rig_Medium_Skeletons.glb-de0bbf8d72cd3d42427c3aef9bb9f654.res"]
 
 [params]
 
@@ -43,7 +43,7 @@ _subresources={
 "animations": {
 "EXPERIMENTAL_Medium_Transform": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/EXPERIMENTAL_Medium_Transform.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/EXPERIMENTAL_Medium_Transform.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://b8ptdedl1gu54",
 "settings/loop_mode": 0,
@@ -2099,7 +2099,7 @@ _subresources={
 },
 "Skeletons_Awaken_Floor": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Awaken_Floor.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Awaken_Floor.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bms4john1mfqy",
 "settings/loop_mode": 0,
@@ -4155,7 +4155,7 @@ _subresources={
 },
 "Skeletons_Awaken_Floor_Long": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Awaken_Floor_Long.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Awaken_Floor_Long.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bhfrhr32se03i",
 "settings/loop_mode": 0,
@@ -6211,7 +6211,7 @@ _subresources={
 },
 "Skeletons_Awaken_Standing": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Awaken_Standing.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Awaken_Standing.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://b6vg1hgm1vavh",
 "settings/loop_mode": 0,
@@ -8267,7 +8267,7 @@ _subresources={
 },
 "Skeletons_Death": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Death.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Death.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://du7lhe3i4l4yh",
 "settings/loop_mode": 0,
@@ -10323,7 +10323,7 @@ _subresources={
 },
 "Skeletons_Death_Pose": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Death_Pose.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Death_Pose.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bk1juxt58wqmd",
 "settings/loop_mode": 0,
@@ -12379,7 +12379,7 @@ _subresources={
 },
 "Skeletons_Death_Resurrect": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Death_Resurrect.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Death_Resurrect.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://beoiafc3d0n2l",
 "settings/loop_mode": 0,
@@ -14435,7 +14435,7 @@ _subresources={
 },
 "Skeletons_Idle": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Idle.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Idle.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bpjvulsv6l1e7",
 "settings/loop_mode": 0,
@@ -16491,7 +16491,7 @@ _subresources={
 },
 "Skeletons_Inactive_Floor_Pose": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Inactive_Floor_Pose.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Inactive_Floor_Pose.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://dl8tg8h1ioiun",
 "settings/loop_mode": 0,
@@ -18547,7 +18547,7 @@ _subresources={
 },
 "Skeletons_Inactive_Standing_Pose": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Inactive_Standing_Pose.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Inactive_Standing_Pose.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://c8y85mve4n0y5",
 "settings/loop_mode": 0,
@@ -20603,7 +20603,7 @@ _subresources={
 },
 "Skeletons_Spawn_Ground": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Spawn_Ground.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Spawn_Ground.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://0mmisu6c6adn",
 "settings/loop_mode": 0,
@@ -22659,7 +22659,7 @@ _subresources={
 },
 "Skeletons_Taunt": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Taunt.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Taunt.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://dgvm8odit13ub",
 "settings/loop_mode": 0,
@@ -24715,7 +24715,7 @@ _subresources={
 },
 "Skeletons_Taunt_Longer": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Taunt_Longer.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Taunt_Longer.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://dr0kjowtnkiu8",
 "settings/loop_mode": 0,
@@ -26771,7 +26771,7 @@ _subresources={
 },
 "Skeletons_Walking": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/Skeletons_Walking.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/Skeletons_Walking.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://kr4ctnax0sc3",
 "settings/loop_mode": 0,
@@ -28827,7 +28827,7 @@ _subresources={
 },
 "T-Pose": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/special/T-Pose.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/skeletons/T-Pose.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://brxmjvysh4ly6",
 "settings/loop_mode": 0,

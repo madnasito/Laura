@@ -37,16 +37,18 @@ transitions = ["Start", "melee_melee_1h_attack_stab", SubResource("AnimationNode
 graph_offset = Vector2(-161.78864, 0)
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_bonn8"]
+advance_mode = 2
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_7j6x2"]
 switch_mode = 2
+advance_mode = 2
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_g77jb"]
 state_machine_type = 1
 states/End/position = Vector2(1104, 100)
 states/Start/position = Vector2(137, 100)
 states/basic/node = SubResource("AnimationNodeStateMachine_672bw")
-states/basic/position = Vector2(518, 100)
+states/basic/position = Vector2(519, 100)
 transitions = ["Start", "basic", SubResource("AnimationNodeStateMachineTransition_bonn8"), "basic", "End", SubResource("AnimationNodeStateMachineTransition_7j6x2")]
 graph_offset = Vector2(0, -4.384929)
 
@@ -63,6 +65,7 @@ animation = &"melee/melee_blocking"
 advance_mode = 2
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_pyuko"]
+xfade_time = 0.1
 switch_mode = 2
 advance_mode = 2
 
@@ -84,7 +87,7 @@ states/melee_melee_block_hit/position = Vector2(703, 100)
 states/melee_melee_blocking/node = SubResource("AnimationNodeAnimation_k3uhc")
 states/melee_melee_blocking/position = Vector2(427, 209)
 transitions = ["Start", "melee_melee_block", SubResource("AnimationNodeStateMachineTransition_672bw"), "melee_melee_block", "melee_melee_blocking", SubResource("AnimationNodeStateMachineTransition_pyuko"), "melee_melee_blocking", "melee_melee_block_hit", SubResource("AnimationNodeStateMachineTransition_prcrc"), "melee_melee_block_hit", "melee_melee_blocking", SubResource("AnimationNodeStateMachineTransition_dahl5"), "melee_melee_blocking", "End", SubResource("AnimationNodeStateMachineTransition_yvo3p"), "melee_melee_block_hit", "End", SubResource("AnimationNodeStateMachineTransition_6ud8k")]
-graph_offset = Vector2(0, -32.050205)
+graph_offset = Vector2(0, 16.025124)
 
 [sub_resource type="AnimationNodeAnimation" id="AnimationNodeAnimation_b1aqq"]
 animation = &"movement_advanced/dodge_forward"
@@ -344,37 +347,37 @@ animation = &"movement_advanced/sneaking"
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_bppch"]
 advance_mode = 2
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_6edme"]
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_qabfx"]
 xfade_time = 0.7
 switch_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_76wtd"]
+xfade_time = 0.7
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_h5tsg"]
 xfade_time = 0.7
 switch_mode = 1
 
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_qabfx"]
-xfade_time = 0.7
-switch_mode = 1
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_x4qdf"]
-xfade_time = 0.7
-
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_rd8i6"]
-xfade_time = 0.7
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_76wtd"]
-xfade_time = 0.7
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ouo3r"]
-xfade_time = 0.7
-
-[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ipe8m"]
 xfade_time = 0.7
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_q4c83"]
 xfade_time = 0.7
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_jl8b8"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_6edme"]
+xfade_time = 0.7
+switch_mode = 1
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_x4qdf"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ouo3r"]
+xfade_time = 0.7
+
+[sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_ipe8m"]
 xfade_time = 0.7
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_0ejw6"]
@@ -392,8 +395,8 @@ states/movement/node = SubResource("AnimationNodeBlendSpace1D_arcne")
 states/movement/position = Vector2(377, 100)
 states/sneaking/node = SubResource("AnimationNodeAnimation_f7tix")
 states/sneaking/position = Vector2(628, 241)
-transitions = ["Start", "movement", SubResource("AnimationNodeStateMachineTransition_bppch"), "movement", "crawling", SubResource("AnimationNodeStateMachineTransition_6edme"), "movement", "crouching", SubResource("AnimationNodeStateMachineTransition_h5tsg"), "movement", "sneaking", SubResource("AnimationNodeStateMachineTransition_qabfx"), "crawling", "movement", SubResource("AnimationNodeStateMachineTransition_x4qdf"), "crouching", "movement", SubResource("AnimationNodeStateMachineTransition_rd8i6"), "sneaking", "movement", SubResource("AnimationNodeStateMachineTransition_76wtd"), "crawling", "crouching", SubResource("AnimationNodeStateMachineTransition_ouo3r"), "crouching", "crawling", SubResource("AnimationNodeStateMachineTransition_ipe8m"), "sneaking", "crouching", SubResource("AnimationNodeStateMachineTransition_q4c83"), "crouching", "sneaking", SubResource("AnimationNodeStateMachineTransition_jl8b8"), "sneaking", "crawling", SubResource("AnimationNodeStateMachineTransition_0ejw6"), "crawling", "sneaking", SubResource("AnimationNodeStateMachineTransition_q1oh0")]
-graph_offset = Vector2(0, -26.744768)
+transitions = ["Start", "movement", SubResource("AnimationNodeStateMachineTransition_bppch"), "movement", "sneaking", SubResource("AnimationNodeStateMachineTransition_qabfx"), "sneaking", "movement", SubResource("AnimationNodeStateMachineTransition_76wtd"), "movement", "crouching", SubResource("AnimationNodeStateMachineTransition_h5tsg"), "crouching", "movement", SubResource("AnimationNodeStateMachineTransition_rd8i6"), "sneaking", "crouching", SubResource("AnimationNodeStateMachineTransition_q4c83"), "crouching", "sneaking", SubResource("AnimationNodeStateMachineTransition_jl8b8"), "movement", "crawling", SubResource("AnimationNodeStateMachineTransition_6edme"), "crawling", "movement", SubResource("AnimationNodeStateMachineTransition_x4qdf"), "crawling", "crouching", SubResource("AnimationNodeStateMachineTransition_ouo3r"), "crouching", "crawling", SubResource("AnimationNodeStateMachineTransition_ipe8m"), "sneaking", "crawling", SubResource("AnimationNodeStateMachineTransition_0ejw6"), "crawling", "sneaking", SubResource("AnimationNodeStateMachineTransition_q1oh0")]
+graph_offset = Vector2(0, -28.096224)
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_8b1n0"]
 xfade_time = 0.1
@@ -423,6 +426,7 @@ xfade_time = 0.2
 xfade_time = 0.1
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_gxv47"]
+xfade_time = 0.2
 switch_mode = 2
 advance_mode = 2
 
@@ -442,6 +446,7 @@ xfade_time = 0.3
 
 [sub_resource type="AnimationNodeStateMachineTransition" id="AnimationNodeStateMachineTransition_i2yhd"]
 xfade_time = 0.3
+advance_mode = 2
 
 [sub_resource type="AnimationNodeStateMachine" id="AnimationNodeStateMachine_bw0wb"]
 allow_transition_to_self = true
@@ -462,10 +467,10 @@ states/jumping/position = Vector2(421, 283.27197)
 states/movement/node = SubResource("AnimationNodeStateMachine_q1oh0")
 states/movement/position = Vector2(421, 100)
 transitions = ["attack", "hit", SubResource("AnimationNodeStateMachineTransition_8b1n0"), "interactions", "hit", SubResource("AnimationNodeStateMachineTransition_l8veq"), "movement", "jumping", SubResource("AnimationNodeStateMachineTransition_363ky"), "jumping", "movement", SubResource("AnimationNodeStateMachineTransition_854xe"), "interactions", "movement", SubResource("AnimationNodeStateMachineTransition_junma"), "movement", "interactions", SubResource("AnimationNodeStateMachineTransition_0iijr"), "movement", "focused", SubResource("AnimationNodeStateMachineTransition_bmuwa"), "focused", "movement", SubResource("AnimationNodeStateMachineTransition_bcmk1"), "movement", "attack", SubResource("AnimationNodeStateMachineTransition_j6qtd"), "attack", "movement", SubResource("AnimationNodeStateMachineTransition_gxv47"), "hit", "movement", SubResource("AnimationNodeStateMachineTransition_u4g1k"), "movement", "hit", SubResource("AnimationNodeStateMachineTransition_4t63r"), "Start", "movement", SubResource("AnimationNodeStateMachineTransition_88tbm"), "movement", "block", SubResource("AnimationNodeStateMachineTransition_epwai"), "block", "hit", SubResource("AnimationNodeStateMachineTransition_y30ik"), "block", "movement", SubResource("AnimationNodeStateMachineTransition_i2yhd")]
-graph_offset = Vector2(0, -192.28867)
+graph_offset = Vector2(0, -125.49789)
 
 [resource]
-graph_offset = Vector2(-703.6609, 36.443542)
+graph_offset = Vector2(-509.91577, 69.20188)
 nodes/Movement/node = SubResource("AnimationNodeStateMachine_bw0wb")
 nodes/Movement/position = Vector2(-300, 80)
 node_connections = [&"output", 0, &"Movement"]
