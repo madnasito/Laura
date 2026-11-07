@@ -15,6 +15,7 @@ var vertical_speed := 0.0
 
 # Action flags (input/combat)
 var is_attacking := false
+var combo_buffered := false
 var is_blocking := false
 var is_hit := false
 var is_dead := false
@@ -34,7 +35,7 @@ func _physics_process(delta: float) -> void:
 	is_jumping = not is_on_floor and vertical_speed > 0.1
 	is_falling = not is_on_floor and vertical_speed < -0.1
 	
-	# movement and speed
+	# movement and Blend position
 	var horizontal_velocity := Vector2(character.velocity.x, character.velocity.z)
 	var current_speed := horizontal_velocity.length()
 	is_moving = is_on_floor and current_speed > 0.1
@@ -46,9 +47,6 @@ func _physics_process(delta: float) -> void:
 	
 	
 	set("parameters/Main/movement/movement/blend_position", speed_ratio)
-
-	set("parameters/Main/conditions/in_air", not is_on_floor)
-	set("parameters/Main/jumping/conditions/on_ground", is_on_floor)
 	
 	print('is_on_floor: ', is_on_floor)
 	print('is_jumping: ', is_jumping)
@@ -68,20 +66,31 @@ func _physics_process(delta: float) -> void:
 	set("parameters/conditions/is_falling", not is_on_floor and vertical_speed <= 0.1)
 
 
+# ----- COMBAT ACTIONS -----
+
 # Combat State Setters (called by Knight or Input)
 func set_blocking(active: bool) -> void:
-	set("parameters/Main/conditions/is_blocking", active)
-	set("parameters/Main/conditions/is_not_blocking", not active)
+	is_blocking = active
+
+func request_attack() -> void:
+	if not is_attacking:
+		is_attacking = true
+		combo_buffered = false
+	else:
+		combo_buffered = true
+
+func consume_combo_buffer() -> void:
+	combo_buffered = false
 
 func start_attack() -> void:
-	set("parameters/Main/conditions/is_attacking", true)
 	playback.travel('attack')
 
 func reset_attack() -> void:
-	set("parameters/Main/conditions/is_attacking", false)
+	is_attacking = false
+	combo_buffered = false
 
 func trigger_hit() -> void:
-	set("parameters/Main/conditions/is_hit", true)
+	is_hit = true
 
 func reset_hit() -> void:
-	set("parameters/Main/conditions/is_hit", false)
+	is_hit = false
