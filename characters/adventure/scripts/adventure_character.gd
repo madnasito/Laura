@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 
 @onready var animation_tree: AnimationTree = %Model/AnimationTree
-@onready var anim_playback: AnimationNodeStateMachinePlayback = animation_tree["parameters/Movement/playback"]
+#@onready var anim_playback: AnimationNodeStateMachinePlayback = animation_tree["parameters/Movement/playback"]
 
 @onready var animator: CharacterAnimator = find_child("AnimationTree", true, false)
 
