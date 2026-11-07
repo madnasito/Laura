@@ -3,6 +3,8 @@ extends "res://characters/adventure/scripts/adventure_character.gd"
 @onready var knight_animator: KnightAnimator = animator as KnightAnimator
 
 func _unhandled_input(event: InputEvent) -> void:
+	super(event) # Keep camera rotation working
+	
 	if not animator:
 		return
 	

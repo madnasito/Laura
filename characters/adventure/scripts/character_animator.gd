@@ -37,9 +37,14 @@ func _physics_process(delta: float) -> void:
 	# movement and speed
 	var horizontal_velocity := Vector2(character.velocity.x, character.velocity.z)
 	var current_speed := horizontal_velocity.length()
-	var is_moving = is_on_floor and current_speed > 0.1
+	is_moving = is_on_floor and current_speed > 0.1
 	var max_speed: float = character.get("move_speed") if "move_speed" in character else 8.0
 	speed_ratio = clampf(current_speed / max_speed, 0.0, 1.0)
+	
+	if is_jumping:
+		playback.travel('jumping')
+	
+	
 	set("parameters/Main/movement/movement/blend_position", speed_ratio)
 
 	set("parameters/Main/conditions/in_air", not is_on_floor)
@@ -64,15 +69,19 @@ func _physics_process(delta: float) -> void:
 
 
 # Combat State Setters (called by Knight or Input)
-
 func set_blocking(active: bool) -> void:
-	set("parameters/conditions/is_blocking", active)
-	set("parameters/conditions/is_not_blocking", not active)
+	set("parameters/Main/conditions/is_blocking", active)
+	set("parameters/Main/conditions/is_not_blocking", not active)
+
 func start_attack() -> void:
-	set("parameters/conditions/is_attacking", true)
+	set("parameters/Main/conditions/is_attacking", true)
+	playback.travel('attack')
+
 func reset_attack() -> void:
-	set("parameters/conditions/is_attacking", false)
+	set("parameters/Main/conditions/is_attacking", false)
+
 func trigger_hit() -> void:
-	set("parameters/conditions/is_hit", true)
+	set("parameters/Main/conditions/is_hit", true)
+
 func reset_hit() -> void:
-	set("parameters/conditions/is_hit", false)
+	set("parameters/Main/conditions/is_hit", false)
