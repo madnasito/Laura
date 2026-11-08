@@ -23,6 +23,8 @@ var is_dead := false
 # ── Combo Step (0 = Not attacking, 1 = Attack 1, 2 = Attack 2, 3 = Attack 3) ──
 var combo_step := 0
 
+
+
 func _ready() -> void:
 	playback = get("parameters/Main/playback")
 
@@ -67,6 +69,18 @@ func _physics_process(delta: float) -> void:
 	print('is_dead: ', is_dead)
 	print('combo step: ', combo_step)
 	
+
+var movement_multiplier: float:
+	get:
+		if not playback:
+			return 1.0
+		var current = playback.get_current_node()
+		if current == "movement":
+			return 1.0
+		elif current == "jumping" and not is_on_floor:
+			return character.air_control if (character and "air_control" in character) else 0.5
+		return 0.0 # Attacks, landing crouch, hit reactions = 0%
+
 
 # ----- COMBAT ACTIONS -----
 

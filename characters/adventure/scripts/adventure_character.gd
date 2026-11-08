@@ -14,6 +14,7 @@ extends CharacterBody3D
 @export var acceleration :=20.0
 @export var rotation_speed :=12.0
 @export var jump_impulse := 12.0
+@export_range(0.0, 1.0) var air_control := 0.5 # Adjustable in the Inspector!
 
 @onready var _camera_pivot: SpringArm3D = %CameraPivot
 @onready var _camera:Camera3D = %Camera3D
@@ -53,17 +54,21 @@ func _handle_movement(delta: float) -> void:
 	_camera_input_direction = Vector2.ZERO
 	
 	var raw_input := Input.get_vector("move_left", "move_right", "move_up", "move_down")
+		
+
 	var forward := _camera.global_basis.z
 	var right := _camera.global_basis.x
 	
 	var move_direction := forward * raw_input.y + right * raw_input.x
 	move_direction.y = 0.0
 	move_direction = move_direction.normalized()
-	print(raw_input.x + raw_input.y)
+	
+	var speed_factor: float = animator.movement_multiplier if animator else 1.0
+	var target_speed := move_speed * speed_factor
 	
 	var y_velocity := velocity.y
 	velocity.y = 0.0
-	velocity = velocity.move_toward(move_direction * move_speed, acceleration * delta)	
+	velocity = velocity.move_toward(move_direction * target_speed, acceleration * delta)	
 	velocity.y = y_velocity + _gravity * delta
 	
 	var is_starting_jump := Input.is_action_just_pressed("jump") and is_on_floor()
@@ -73,7 +78,8 @@ func _handle_movement(delta: float) -> void:
 	
 	move_and_slide()
 	
-	if move_direction.length() > 0.2:
-		_last_movement_direction = move_direction
-	var target_angle := Vector3.BACK.signed_angle_to(_last_movement_direction, Vector3.UP)
-	$Model.global_rotation.y = lerp_angle($Model.rotation.y, target_angle, rotation_speed * delta)
+	if speed_factor > 0.0:
+		if move_direction.length() > 0.2:
+			_last_movement_direction = move_direction
+		var target_angle := Vector3.BACK.signed_angle_to(_last_movement_direction, Vector3.UP)
+		$Model.global_rotation.y = lerp_angle($Model.rotation.y, target_angle, rotation_speed * delta)
