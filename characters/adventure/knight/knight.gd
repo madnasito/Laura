@@ -9,7 +9,7 @@ func _unhandled_input(event: InputEvent) -> void:
 		return
 	
 	if event.is_action_pressed("attack_primary"):
-		animator.start_attack()
+		animator.request_attack()
 	
 	if event.is_action_pressed("block"):
 		animator.set_blocking(true)

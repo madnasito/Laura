@@ -20,6 +20,9 @@ var is_blocking := false
 var is_hit := false
 var is_dead := false
 
+# ── Combo Step (0 = Not attacking, 1 = Attack 1, 2 = Attack 2, 3 = Attack 3) ──
+var combo_step := 0
+
 func _ready() -> void:
 	playback = get("parameters/Main/playback")
 
@@ -35,12 +38,16 @@ func _physics_process(delta: float) -> void:
 	is_jumping = not is_on_floor and vertical_speed > 0.1
 	is_falling = not is_on_floor and vertical_speed < -0.1
 	
-	# movement and Blend position
+	# Horizontal movement
 	var horizontal_velocity := Vector2(character.velocity.x, character.velocity.z)
-	var current_speed := horizontal_velocity.length()
-	is_moving = is_on_floor and current_speed > 0.1
 	var max_speed: float = character.get("move_speed") if "move_speed" in character else 8.0
-	speed_ratio = clampf(current_speed / max_speed, 0.0, 1.0)
+	speed_ratio = clampf(horizontal_velocity.length() / max_speed, 0.0, 1.0)
+	set("parameters/Main/movement/movement/blend_position", speed_ratio)
+	
+	# ── AUTOMATIC COMBO RESET ──
+	# Whenever the StateMachine is in "movement", reset combo_step to 0!
+	if combo_step > 0 and playback and playback.get_current_node() == "movement":
+		combo_step = 0
 	
 	if is_jumping:
 		playback.travel('jumping')
@@ -58,13 +65,8 @@ func _physics_process(delta: float) -> void:
 	print('is_blocking: ', is_blocking)
 	print('is_hit: ', is_hit)
 	print('is_dead: ', is_dead)
+	print('combo step: ', combo_step)
 	
-	# ground and air conditions
-	set("parameters/conditions/on_ground", is_on_floor)
-	set("parameters/conditions/in_air", not is_on_floor)
-	set("parameters/conditions/is_jumping", not is_on_floor and vertical_speed > 0.1)
-	set("parameters/conditions/is_falling", not is_on_floor and vertical_speed <= 0.1)
-
 
 # ----- COMBAT ACTIONS -----
 
@@ -73,17 +75,11 @@ func set_blocking(active: bool) -> void:
 	is_blocking = active
 
 func request_attack() -> void:
-	if not is_attacking:
-		is_attacking = true
-		combo_buffered = false
-	else:
-		combo_buffered = true
+	# Increment combo step (capped at 3)
+	combo_step = mini(combo_step + 1, 3)
 
 func consume_combo_buffer() -> void:
 	combo_buffered = false
-
-func start_attack() -> void:
-	playback.travel('attack')
 
 func reset_attack() -> void:
 	is_attacking = false
@@ -91,6 +87,7 @@ func reset_attack() -> void:
 
 func trigger_hit() -> void:
 	is_hit = true
+	combo_step = 0
 
 func reset_hit() -> void:
 	is_hit = false
