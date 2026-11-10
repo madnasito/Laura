@@ -43,7 +43,7 @@ _subresources={
 "animations": {
 "Ranged_1H_Aiming": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_1H_Aiming.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_1h_aiming.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://c4v4n3s137v1i",
 "settings/loop_mode": 0,
@@ -2099,7 +2099,7 @@ _subresources={
 },
 "Ranged_1H_Reload": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_1H_Reload.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_1h_reload.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://brpto7ff2hfef",
 "settings/loop_mode": 0,
@@ -4155,7 +4155,7 @@ _subresources={
 },
 "Ranged_1H_Shoot": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_1H_Shoot.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_1h_shoot.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://cc0ed5cfp4j8e",
 "settings/loop_mode": 0,
@@ -6211,7 +6211,7 @@ _subresources={
 },
 "Ranged_1H_Shooting": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_1H_Shooting.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_1h_shooting.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://b2ptsj1oo24pp",
 "settings/loop_mode": 0,
@@ -8267,7 +8267,7 @@ _subresources={
 },
 "Ranged_2H_Aiming": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_2H_Aiming.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_2h_aiming.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://b0guvjwhy5ksn",
 "settings/loop_mode": 0,
@@ -10323,7 +10323,7 @@ _subresources={
 },
 "Ranged_2H_Reload": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_2H_Reload.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_2h_reload.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bjgptrpt0uia0",
 "settings/loop_mode": 0,
@@ -12379,7 +12379,7 @@ _subresources={
 },
 "Ranged_2H_Shoot": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_2H_Shoot.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_2h_shoot.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://cl70b5m3f7hh5",
 "settings/loop_mode": 0,
@@ -14435,7 +14435,7 @@ _subresources={
 },
 "Ranged_2H_Shooting": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_2H_Shooting.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_2h_shooting.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://b32is34qvvdo7",
 "settings/loop_mode": 0,
@@ -16491,7 +16491,7 @@ _subresources={
 },
 "Ranged_Bow_Aiming_Idle": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_Bow_Aiming_Idle.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_bow_aiming_idle.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://o6ad2uavvfnl",
 "settings/loop_mode": 0,
@@ -18547,7 +18547,7 @@ _subresources={
 },
 "Ranged_Bow_Draw": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_Bow_Draw.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_bow_draw.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bbp7ayrwkijpc",
 "settings/loop_mode": 0,
@@ -20603,7 +20603,7 @@ _subresources={
 },
 "Ranged_Bow_Draw_Up": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_Bow_Draw_Up.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_bow_draw_up.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://ctnkt8dwolkd8",
 "settings/loop_mode": 0,
@@ -22659,7 +22659,7 @@ _subresources={
 },
 "Ranged_Bow_Idle": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_Bow_Idle.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_bow_idle.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://d74uq3woh5tl",
 "settings/loop_mode": 0,
@@ -24715,7 +24715,7 @@ _subresources={
 },
 "Ranged_Bow_Release": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_Bow_Release.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_bow_release.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bh2obr612674r",
 "settings/loop_mode": 0,
@@ -26771,7 +26771,7 @@ _subresources={
 },
 "Ranged_Bow_Release_Up": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_Bow_Release_Up.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_bow_release_up.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://0t3ajdjn4n6w",
 "settings/loop_mode": 0,
@@ -28827,7 +28827,7 @@ _subresources={
 },
 "Ranged_Magic_Raise": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_Magic_Raise.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_magic_raise.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://cs5f1cw0x8m5p",
 "settings/loop_mode": 0,
@@ -30883,7 +30883,7 @@ _subresources={
 },
 "Ranged_Magic_Shoot": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_Magic_Shoot.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_magic_shoot.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://cjch3brq76uep",
 "settings/loop_mode": 0,
@@ -32939,7 +32939,7 @@ _subresources={
 },
 "Ranged_Magic_Spellcasting": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_Magic_Spellcasting.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_magic_spellcasting.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://bg66b2xxh1tl1",
 "settings/loop_mode": 0,
@@ -34995,7 +34995,7 @@ _subresources={
 },
 "Ranged_Magic_Spellcasting_Long": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_Magic_Spellcasting_Long.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_magic_spellcasting_long.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://wmkrypo1fcgt",
 "settings/loop_mode": 0,
@@ -37051,7 +37051,7 @@ _subresources={
 },
 "Ranged_Magic_Summon": {
 "save_to_file/enabled": true,
-"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/Ranged_Magic_Summon.res",
+"save_to_file/fallback_path": "res://assets/3d/characters/adventurers/animations/Rig_Medium/combat_ranged/ranged_magic_summon.res",
 "save_to_file/keep_custom_tracks": "",
 "save_to_file/path": "uid://pv5sngfv3x65",
 "settings/loop_mode": 0,
