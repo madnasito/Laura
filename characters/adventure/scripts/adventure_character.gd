@@ -53,7 +53,7 @@ func _handle_movement(delta: float) -> void:
 	
 	_camera_input_direction = Vector2.ZERO
 	
-	var raw_input := Input.get_vector("move_left", "move_right", "move_up", "move_down")
+	var raw_input := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
 		
 
 	var forward := _camera.global_basis.z
@@ -75,6 +75,8 @@ func _handle_movement(delta: float) -> void:
 	
 	if is_starting_jump:
 		velocity.y += jump_impulse
+		if animator:
+			animator.is_jumping = true # Trigger immediately!
 	
 	move_and_slide()
 	

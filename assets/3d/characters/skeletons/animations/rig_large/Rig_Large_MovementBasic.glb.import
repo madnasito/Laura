@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cmcrtxagfeuun"
-path="res://.godot/imported/Rig_Large_MovementBasic.glb-fb1651d0981f208294e03360749f487c.scn"
+path="res://.godot/imported/Rig_Large_MovementBasic.glb-59f5b388a05a761ee449d59905ef0bc1.scn"
 
 [deps]
 
-source_file="res://assets/3d/characters/skeletons/Animations/rig_large/Rig_Large_MovementBasic.glb"
-dest_files=["res://.godot/imported/Rig_Large_MovementBasic.glb-fb1651d0981f208294e03360749f487c.scn"]
+source_file="res://assets/3d/characters/skeletons/animations/rig_large/Rig_Large_MovementBasic.glb"
+dest_files=["res://.godot/imported/Rig_Large_MovementBasic.glb-59f5b388a05a761ee449d59905ef0bc1.scn"]
 
 [params]
 

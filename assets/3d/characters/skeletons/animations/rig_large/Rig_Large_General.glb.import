@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dk2luva47k1m6"
-path="res://.godot/imported/Rig_Medium_MovementBasic.glb-24fd4b7364208fa3ce838193bd092e15.scn"
+uid="uid://bhiayfpluodas"
+path="res://.godot/imported/Rig_Large_General.glb-08d380460507d0d11d08fcdff569e678.scn"
 
 [deps]
 
-source_file="res://assets/3d/characters/skeletons/Animations/rig_medium/Rig_Medium_MovementBasic.glb"
-dest_files=["res://.godot/imported/Rig_Medium_MovementBasic.glb-24fd4b7364208fa3ce838193bd092e15.scn"]
+source_file="res://assets/3d/characters/skeletons/animations/rig_large/Rig_Large_General.glb"
+dest_files=["res://.godot/imported/Rig_Large_General.glb-08d380460507d0d11d08fcdff569e678.scn"]
 
 [params]
 
