@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://byejfwsdp8ma"]
+
+[node name="EnemyBase" type="CharacterBody3D" unique_id=606570216]
